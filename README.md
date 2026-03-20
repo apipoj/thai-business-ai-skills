@@ -29,9 +29,39 @@
 
 ---
 
-## เริ่มจากตรงนี้
+## Contents
 
-### สกิลแนะนำสำหรับคนเริ่มใช้
+- [Start Here](#start-here)
+- [How to Use](#how-to-use)
+- [Featured Skills](#featured-skills)
+- [Browse by Department](#browse-by-department)
+  - [Sales](#sales)
+  - [Marketing](#marketing)
+  - [Customer Support](#customer-support)
+  - [HR](#hr)
+  - [Operations](#operations)
+  - [Finance](#finance)
+  - [Leadership](#leadership)
+- [Browse by Common Tools](#browse-by-common-tools)
+  - [Meetings](#meetings)
+  - [PowerPoint](#powerpoint)
+  - [Excel](#excel)
+  - [Word / Docs](#word--docs)
+  - [Email](#email)
+  - [Research](#research)
+  - [Translation / Localization](#translation--localization)
+- [External Recommended Skills](#external-recommended-skills)
+- [Standard Skill Format](#standard-skill-format)
+- [Skill Selection Rule](#skill-selection-rule)
+- [Who This Repo Is For](#who-this-repo-is-for)
+- [Important Cautions](#important-cautions)
+- [License](#license)
+
+---
+
+## Start Here
+
+ถ้าคุณเพิ่งเข้ามาใน repo นี้ ให้เริ่มจาก:
 - ฝ่ายขาย: [เขียนข้อความติดตามลูกค้า](departments/sales/skill-follow-up-message-th/SKILL.md)
 - การตลาด: [เขียนโพสต์โปรโมตสินค้า/บริการ](departments/marketing/skill-thai-marketing-post/SKILL.md)
 - บริการลูกค้า: [ตอบลูกค้าร้องเรียนอย่างสุภาพ](departments/customer-support/skill-thai-complaint-reply/SKILL.md)
@@ -40,53 +70,54 @@
 - ผู้บริหาร: [สรุปรายงานให้ผู้บริหารอ่านง่าย](departments/leadership/skill-exec-summary/SKILL.md)
 - PowerPoint: [ช่วยทำโครงสไลด์นำเสนอ](general/powerpoint/skill-presentation-outline/SKILL.md)
 
-### External skills ที่แนะนำ
-- Excel / xlsx → [Anthropic xlsx skill](https://github.com/anthropics/skills/tree/main/skills/xlsx)
-- PowerPoint / pptx → [Anthropic pptx skill](https://github.com/anthropics/skills/tree/main/skills/pptx)
-- Word / docx → [Anthropic docx skill](https://github.com/anthropics/skills/tree/main/skills/docx)
-- PDF → [Anthropic pdf skill](https://github.com/anthropics/skills/tree/main/skills/pdf)
-
-> แนวทางของ repo นี้คือ: ถ้าสกิลทั่วไปมีของดีอยู่แล้ว เราจะลิงก์ตรงไปที่ต้นฉบับ แล้วค่อยเพิ่มตัวอย่างและ wrapper สำหรับบริบทธุรกิจไทย
-
 ---
 
-## วิธีใช้งาน
+## How to Use
 
 ### แบบที่ 1: ใช้เป็น prompt ธรรมดา
 1. เปิดไฟล์ `SKILL.md`
-2. คัดลอก prompt
-3. ใส่ข้อมูลของคุณ
-4. ส่งเข้า Claude / ChatGPT / Gemini
-5. ตรวจทานก่อนใช้งานจริง
+2. อ่านหรือคัดลอกแนวทางหลัก
+3. ถ้าต้องการตัวอย่าง ให้เปิด `references/examples.md`
+4. ใส่ข้อมูลของคุณ
+5. ส่งเข้า Claude / ChatGPT / Gemini
+6. ตรวจทานก่อนใช้งานจริง
 
 ### แบบที่ 2: ใช้กับระบบที่ import skill ได้
-หลาย repo ยอดนิยมจะลิงก์ตรงไปที่ `SKILL.md` เพื่อให้ user เปิดแล้ว import หรือ copy ได้ทันที
-
-repo นี้จึงพยายามใช้ **standard skill layout** มากขึ้น:
+repo นี้พยายามใช้โครงสร้างแบบ standard skill:
 - `.../skill-name/SKILL.md`
 - `.../skill-name/references/...`
 
-โดย `SKILL.md` จะเป็นไฟล์มาตรฐานที่มี YAML frontmatter (`name`, `description`) และคำสั่งแบบ agent-facing ส่วนตัวอย่างและ prompt pattern ยาว ๆ จะอยู่ใน `references/`
-
-เพื่อให้:
-- เปิดอ่านง่าย
-- ลิงก์ตรงง่าย
-- import ง่าย
-- จัดระเบียบง่าย
+โดย:
+- `SKILL.md` = ไฟล์หลักสำหรับ import / อ้างอิง
+- `references/` = ตัวอย่าง, prompt pattern, หรือข้อมูลเสริม
 
 ---
 
-## Browse by department
+## Featured Skills
 
-### ฝ่ายขาย
+สกิลเด่นที่เหมาะกับการเริ่มต้นใช้งาน:
+
+- [เขียนข้อความติดตามลูกค้า](departments/sales/skill-follow-up-message-th/SKILL.md) — ช่วยติดตามลูกค้าแบบสุภาพ ไม่กดดัน
+- [เขียนโพสต์โปรโมตสินค้า/บริการ](departments/marketing/skill-thai-marketing-post/SKILL.md) — ช่วยทำโพสต์การตลาดภาษาไทยแบบใช้งานได้จริง
+- [ตอบลูกค้าร้องเรียนอย่างสุภาพ](departments/customer-support/skill-thai-complaint-reply/SKILL.md) — ช่วยลดความตึงเครียดและตอบอย่างมืออาชีพ
+- [เขียน JD แบบเข้าใจง่าย](departments/hr/skill-thai-jd-writer/SKILL.md) — ช่วยให้ประกาศรับสมัครชัดเจนขึ้น
+- [สรุปประชุมพร้อม Action Items](general/meetings/skill-meeting-summary-action-items-th/SKILL.md) — ช่วยทำสรุปประชุมพร้อมส่งต่อทีม
+- [สรุปรายงานให้ผู้บริหารอ่านง่าย](departments/leadership/skill-exec-summary/SKILL.md) — ช่วยย่อยรายงานให้สั้นและคม
+- [ช่วยทำโครงสไลด์นำเสนอ](general/powerpoint/skill-presentation-outline/SKILL.md) — ช่วยคิด flow ก่อนลงมือทำ deck
+
+---
+
+## Browse by Department
+
+### Sales
 - [หน้ารวม Sales Skills](departments/sales/README.md)
 - [เขียนข้อความติดตามลูกค้า](departments/sales/skill-follow-up-message-th/SKILL.md)
 
-### การตลาด
+### Marketing
 - [หน้ารวม Marketing Skills](departments/marketing/README.md)
 - [เขียนโพสต์โปรโมตสินค้า/บริการ](departments/marketing/skill-thai-marketing-post/SKILL.md)
 
-### บริการลูกค้า
+### Customer Support
 - [หน้ารวม Customer Support Skills](departments/customer-support/README.md)
 - [ตอบลูกค้าร้องเรียนอย่างสุภาพ](departments/customer-support/skill-thai-complaint-reply/SKILL.md)
 
@@ -106,7 +137,7 @@ repo นี้จึงพยายามใช้ **standard skill layout** ม
 
 ---
 
-## Browse by common tools
+## Browse by Common Tools
 
 ### Meetings
 - [หน้ารวม Meeting Skills](general/meetings/README.md)
@@ -136,47 +167,47 @@ repo นี้จึงพยายามใช้ **standard skill layout** ม
 
 ---
 
-## ประเภทของเนื้อหาใน repo นี้
+## External Recommended Skills
 
-### 1) Original ALL-IN-AI Skills
-สกิลที่เราเขียนเองเพื่อให้เหมาะกับงานธุรกิจไทยจริง ๆ
+ถ้ามี skill ต้นฉบับที่ดีอยู่แล้ว เราจะไม่เขียนใหม่แบบฝืน ๆ แต่จะลิงก์ให้ใช้ตรง ๆ แล้วค่อยเพิ่ม wrapper สำหรับบริบทธุรกิจไทย
 
-### 2) Curated External Skills
-สกิลจากแหล่งอื่นที่ดีอยู่แล้ว และควรลิงก์ตรงไปใช้ทันที
-
-### 3) Thai Business Wrappers
-คู่มือหรือหน้าสรุปที่ช่วยเอาสกิลทั่วไปมาปรับใช้กับบริบทธุรกิจไทย
-
----
-
-## รูปแบบมาตรฐานของ skill
-
-แต่ละ skill ควรมี:
-- ใช้เมื่อไหร่
-- ต้องใส่อะไรบ้าง
-- Prompt พร้อมใช้
-- ผลลัพธ์ที่ควรได้
-- ตัวอย่าง input
-- ตัวอย่าง output
-- ข้อควรระวัง
-
-Template ดูได้ที่:
-- [templates/SKILL_TEMPLATE.md](templates/SKILL_TEMPLATE.md)
+แนะนำเริ่มจาก:
+- Excel / xlsx → [Anthropic xlsx skill](https://github.com/anthropics/skills/tree/main/skills/xlsx)
+- PowerPoint / pptx → [Anthropic pptx skill](https://github.com/anthropics/skills/tree/main/skills/pptx)
+- Word / docx → [Anthropic docx skill](https://github.com/anthropics/skills/tree/main/skills/docx)
+- PDF → [Anthropic pdf skill](https://github.com/anthropics/skills/tree/main/skills/pdf)
 
 ---
 
-## แนวทางการคัด skill เข้ามา
+## Standard Skill Format
 
-เรา **ไม่จำเป็นต้องเขียนทุกอย่างใหม่**
+repo นี้พยายามจัด skill ให้อยู่ในรูปแบบที่ใกล้กับมาตรฐาน skill ecosystem มากขึ้น:
 
-กฎง่าย ๆ คือ:
-- ถ้ามี skill ต้นฉบับที่ดีอยู่แล้ว → ลิงก์
-- ถ้ายังไม่เหมาะกับคนไทย / ธุรกิจไทย → เขียน wrapper
-- ถ้าเป็น workflow ธุรกิจไทยโดยตรง → เขียน original skill
+```text
+skill-name/
+├── SKILL.md
+└── references/
+    └── examples.md
+```
+
+โดย:
+- `SKILL.md` มี YAML frontmatter เช่น `name` และ `description`
+- เนื้อหาใน `SKILL.md` จะเป็นคำสั่งแบบ agent-facing
+- `references/` ใช้เก็บตัวอย่าง, prompt pattern, หรือข้อมูลเสริม
 
 ---
 
-## เหมาะกับใคร
+## Skill Selection Rule
+
+กฎง่าย ๆ สำหรับการคัด skill เข้ามาใน repo:
+
+- ถ้ามี skill ต้นฉบับที่ดีอยู่แล้ว → **ลิงก์**
+- ถ้ายังไม่เหมาะกับคนไทย / ธุรกิจไทย → **ทำ wrapper**
+- ถ้าเป็น workflow ธุรกิจไทยโดยตรง → **เขียน original skill**
+
+---
+
+## Who This Repo Is For
 
 - เจ้าของธุรกิจ
 - ทีมขาย
@@ -189,7 +220,7 @@ Template ดูได้ที่:
 
 ---
 
-## ข้อควรระวัง
+## Important Cautions
 
 AI ช่วยเร่งงานได้ แต่ไม่ควรใช้แบบไม่ตรวจทาน โดยเฉพาะเรื่อง:
 - ข้อมูลลูกค้า
