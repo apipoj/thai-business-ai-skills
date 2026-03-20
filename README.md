@@ -279,10 +279,12 @@ repo นี้พยายามใช้โครงสร้างแบบ st
 
 ถ้าคุณต้องการใช้งานด้านเอกสาร ไฟล์ หรือสเปรดชีตโดยตรง สามารถเริ่มจาก skill ต้นฉบับเหล่านี้ได้เลย:
 
-- Excel / xlsx → [Anthropic xlsx skill](https://github.com/anthropics/skills/tree/main/skills/xlsx)
-- PowerPoint / pptx → [Anthropic pptx skill](https://github.com/anthropics/skills/tree/main/skills/pptx)
-- Word / docx → [Anthropic docx skill](https://github.com/anthropics/skills/tree/main/skills/docx)
-- PDF → [Anthropic pdf skill](https://github.com/anthropics/skills/tree/main/skills/pdf)
+### Document Processing
+
+- [docx](https://github.com/anthropics/skills/tree/main/skills/docx) - ช่วยสร้าง แก้ไข และวิเคราะห์เอกสาร Word รวมถึงงานเอกสารแบบมืออาชีพ
+- [pdf](https://github.com/anthropics/skills/tree/main/skills/pdf) - ช่วยดึงข้อความ ตาราง รวมไฟล์ และจัดการงาน PDF ทั่วไป
+- [pptx](https://github.com/anthropics/skills/tree/main/skills/pptx) - ช่วยอ่าน สร้าง และปรับสไลด์ presentation หรือ deck ต่าง ๆ
+- [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx) - ช่วยจัดการ spreadsheet, สูตร, ตาราง, การแปลงข้อมูล, และการวิเคราะห์เบื้องต้น
 
 บางส่วนของ repo นี้จะมีตัวอย่างหรือแนวทางเพิ่มเติมสำหรับการนำ skill เหล่านี้ไปใช้ในบริบทธุรกิจไทย
 
