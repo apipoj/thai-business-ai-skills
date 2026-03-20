@@ -1,64 +1,54 @@
-# สรุปประชุมพร้อม Action Items
+---
+name: thai-meeting-summary-action-items
+description: Summarize Thai or mixed-language meeting notes, transcripts, or rough bullets into a clear Thai meeting summary with decisions, action items, and follow-ups. Use when the user needs meeting output that is easier to read, share, or send to a team.
+---
 
-## สกิลนี้ช่วยอะไร
-ช่วยสรุปบทสนทนาหรือบันทึกประชุมให้อ่านง่าย พร้อมแยกประเด็นสำคัญ สิ่งที่ตัดสินใจ และ action items ที่ต้องทำต่อ
+# Thai Meeting Summary with Action Items
 
-## เหมาะกับแผนกไหน
-ทุกแผนก
+Turn messy meeting content into a clean Thai summary for business use.
 
-## ใช้ได้กับ
-- Claude
-- ChatGPT
-- Gemini
+## Output requirements
 
-## ใช้เมื่อไหร่
-ใช้หลังประชุมเสร็จ เมื่อมี transcript, note หรือ bullet ที่ยังอ่านยาก และต้องการสรุปให้ทีมเข้าใจตรงกัน
+- Write in Thai
+- Prioritize clarity over completeness theater
+- Separate facts, decisions, action items, and open questions
+- Do not invent owners, deadlines, or decisions when not present
+- Explicitly mark unclear items as unclear
 
-## ต้องใส่อะไรบ้าง
-- transcript หรือบันทึกประชุม
-- ชื่อประชุม
-- วันที่ประชุม
-- ถ้ารู้: รายชื่อผู้เข้าร่วม
+## Working method
 
-## Prompt พร้อมใช้
-```text
-ช่วยสรุปการประชุมนี้เป็นภาษาไทยแบบอ่านง่ายสำหรับคนทำงาน
+1. Identify the meeting topic and context
+2. Extract the main points discussed
+3. Separate confirmed decisions from suggestions
+4. Extract action items and owners when available
+5. Note unresolved items or dependencies
 
-ข้อมูลประกอบ:
-- ชื่อประชุม: [ใส่ชื่อ]
-- วันที่ประชุม: [ใส่วันที่]
-- ผู้เข้าร่วม: [ถ้ามี]
+## Default output structure
 
-เนื้อหาประชุม:
-[วาง transcript หรือ note]
+Use this structure unless the user asks otherwise:
+1. short overall summary
+2. key discussion points
+3. decisions made
+4. action items
+5. pending follow-ups
 
-ต้องการ output ตามนี้:
-1. สรุปภาพรวมสั้น ๆ
-2. ประเด็นสำคัญที่คุยกัน
-3. สิ่งที่ตัดสินใจแล้ว
-4. Action items แยกเป็นข้อ พร้อมคนรับผิดชอบถ้ามี
-5. เรื่องที่ยังต้องติดตามต่อ
+## Action item rules
 
-เงื่อนไข:
-- เขียนเป็นภาษาไทยชัดเจน
-- ไม่เยิ่นเย้อ
-- ถ้าข้อมูลไหนไม่ชัด ให้ระบุว่าไม่ชัด แทนการเดา
-```
+For each action item, include when possible:
+- task
+- owner
+- due date
+- dependency or blocker
 
-## ผลลัพธ์ที่ควรได้
-สรุปประชุมแบบพร้อมส่งต่อทีมได้ทันที
+If owner or date is missing, state that it was not specified.
 
-## ตัวอย่าง input
-ประชุมเรื่องแผนเปิดตัวบริการใหม่ ฝ่ายการตลาดเสนอเลื่อนวัน launch 1 สัปดาห์เพื่อเตรียมคอนเทนต์ให้พร้อม ฝ่ายขายต้องการ deck ใหม่ และ CEO ขอให้สรุปงบประมาณเพิ่มเติมภายในวันศุกร์
+## Tone guidance
 
-## ตัวอย่าง output
-### สรุปภาพรวม
-ที่ประชุมเห็นตรงกันว่าควรเลื่อนวันเปิดตัวบริการใหม่ออกไป 1 สัปดาห์ เพื่อให้ทีมการตลาดและฝ่ายขายเตรียม material ได้ครบมากขึ้น
+- concise
+- readable by non-technical teams
+- suitable to forward internally
+- avoid decorative language
 
-### Action Items
-1. ทีมการตลาดจัดทำคอนเทนต์ launch plan ให้ครบ
-2. ทีมขายปรับ deck นำเสนอใหม่
-3. สรุปงบประมาณเพิ่มเติมส่งภายในวันศุกร์
+## References
 
-## ข้อควรระวัง
-ถ้า transcript ยาวมาก ควรเช็กว่า AI ไม่ตกหล่นประเด็นสำคัญหรือชื่อคนรับผิดชอบ
+For examples and a reusable end-user prompt pattern, see `references/examples.md`.

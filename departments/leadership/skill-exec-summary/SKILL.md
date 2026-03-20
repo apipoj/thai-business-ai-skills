@@ -1,57 +1,46 @@
-# สรุปรายงานให้ผู้บริหารอ่านง่าย
+---
+name: thai-executive-summary
+description: Summarize long Thai or mixed-language reports, project updates, or scattered notes into a concise Thai executive summary. Use when the user needs a management-ready summary focused on status, key issues, risks, and decisions needed.
+---
 
-## สกิลนี้ช่วยอะไร
-ช่วยสรุปรายงานยาว ๆ ให้เหลือเฉพาะสิ่งที่ผู้บริหารควรรู้ เช่น สถานะปัจจุบัน ประเด็นสำคัญ ความเสี่ยง และสิ่งที่ต้องตัดสินใจ
+# Thai Executive Summary
 
-## เหมาะกับแผนกไหน
-ผู้บริหาร / ผู้จัดการ / PM / Operations
+Condense long business updates into a form that executives can scan quickly.
 
-## ใช้ได้กับ
-- Claude
-- ChatGPT
-- Gemini
+## Output requirements
 
-## ใช้เมื่อไหร่
-ใช้เมื่อมีรายงานยาว ข้อมูลหลายส่วน หรือ note ที่กระจัดกระจาย แล้วต้องการสรุปให้ผู้บริหารอ่านเร็วและเข้าใจภาพรวมทันที
+- Write in Thai
+- Keep the top summary short and decision-oriented
+- Surface status, key issues, risks, and support needed
+- Do not over-explain background unless requested
+- Mark unclear facts as unclear instead of guessing
 
-## ต้องใส่อะไรบ้าง
-- เนื้อหารายงาน
-- บริบทของงานหรือโครงการ
-- ถ้ารู้: สิ่งที่ผู้บริหารกังวลหรืออยากรู้เป็นพิเศษ
+## Working method
 
-## Prompt พร้อมใช้
-```text
-ช่วยสรุปรายงานนี้เป็นภาษาไทยสำหรับผู้บริหาร
+1. Identify the business context
+2. Extract the current status
+3. Pull out the most important changes or issues
+4. Highlight risks, blockers, or dependencies
+5. State what needs decision or support
 
-ข้อมูลประกอบ:
-- บริบทของงาน/โครงการ: [ใส่ข้อมูล]
-- สิ่งที่ผู้บริหารอยากรู้เป็นพิเศษ: [ใส่ข้อมูล ถ้ามี]
+## Default output structure
 
-เนื้อหารายงาน:
-[วางข้อมูล]
+1. executive summary
+2. current status
+3. key issues
+4. risks / watchouts
+5. decisions or support needed
 
-ต้องการ output ตามนี้:
-1. สรุปผู้บริหาร (ไม่เกิน 5 บรรทัด)
-2. สถานะปัจจุบัน
-3. ประเด็นสำคัญ
-4. ความเสี่ยง / สิ่งที่ต้องระวัง
-5. สิ่งที่ต้องตัดสินใจหรือสนับสนุนต่อ
+## Tone guidance
 
-เงื่อนไข:
-- เขียนให้สั้น ชัด และตรงประเด็น
-- ถ้าข้อมูลไหนไม่ชัด ให้ระบุว่าไม่ชัด
-- หลีกเลี่ยงภาษาฟุ้งหรือภาษาสวยเกินจำเป็น
-```
+Use language that feels:
+- crisp
+- businesslike
+- easy to scan
+- free of fluff
 
-## ผลลัพธ์ที่ควรได้
-Executive summary ที่พร้อมส่งต่อหรือใส่ในอัปเดตผู้บริหารได้ทันที
+Prefer signal over completeness.
 
-## ตัวอย่าง input
-รายงานสถานะโครงการระบบใหม่ ลูกค้าต้องการเลื่อน rollout ทีม dev เสร็จ 80% แต่มีความเสี่ยงเรื่อง data migration และทีม operation ยังไม่ได้ซ้อม process ใหม่ครบ
+## References
 
-## ตัวอย่าง output
-### สรุปผู้บริหาร
-โครงการมีความคืบหน้าโดยรวมในระดับดี แต่ยังมีความเสี่ยงสำคัญด้าน data migration และ readiness ของทีม operation ซึ่งอาจกระทบ timeline หากไม่เร่งปิดภายในสัปดาห์นี้
-
-## ข้อควรระวัง
-ควรตรวจทานตัวเลข ความเสี่ยง และข้อเสนอแนะก่อนส่งให้ผู้บริหารจริง
+For examples and a reusable end-user prompt pattern, see `references/examples.md`.

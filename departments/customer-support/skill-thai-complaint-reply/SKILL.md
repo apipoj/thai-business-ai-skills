@@ -1,57 +1,51 @@
-# ตอบลูกค้าร้องเรียนอย่างสุภาพ
+---
+name: thai-customer-complaint-reply
+description: Draft calm, polite Thai responses to customer complaints, frustration, or service issues. Use when the user needs to reply to an unhappy customer in Thai, de-escalate tension, apologize appropriately, and suggest a next step without making the situation worse.
+---
 
-## สกิลนี้ช่วยอะไร
-ช่วยร่างข้อความตอบลูกค้าที่ไม่พอใจ ให้ดูสุภาพ ใจเย็น และแก้สถานการณ์ได้ดีขึ้น โดยไม่ใช้อารมณ์หรือภาษาที่ทำให้เรื่องแย่ลง
+# Thai Customer Complaint Reply
 
-## เหมาะกับแผนกไหน
-Customer Support / Admin / เจ้าของธุรกิจ / ฝ่ายขาย
+Draft Thai customer service responses that calm the situation and move it forward.
 
-## ใช้ได้กับ
-- Claude
-- ChatGPT
-- Gemini
+## Output requirements
 
-## ใช้เมื่อไหร่
-ใช้เมื่อลูกค้ามีปัญหา ร้องเรียน ไม่พอใจ หรือส่งข้อความแรง ๆ มา แล้วต้องการตอบกลับอย่างมืออาชีพ
+- Write in Thai
+- Lead with empathy and acknowledgment
+- Avoid arguing with the customer
+- Avoid blaming the customer or internal teams in the reply
+- If the company is at fault, apologize appropriately
+- Offer a practical next step
 
-## ต้องใส่อะไรบ้าง
-- ข้อความของลูกค้า
-- สาเหตุของปัญหา (ถ้ารู้)
-- สิ่งที่บริษัทช่วยได้
-- โทนที่ต้องการ
+## Working method
 
-## Prompt พร้อมใช้
-```text
-ช่วยร่างข้อความตอบลูกค้าร้องเรียนเป็นภาษาไทย
+1. Identify the customer's main complaint
+2. Acknowledge impact or frustration
+3. Apologize if appropriate
+4. State what can be checked, fixed, or escalated
+5. End with a clear next step
 
-ข้อมูลมีดังนี้:
-- ข้อความของลูกค้า: [วางข้อความ]
-- สาเหตุของปัญหา: [ใส่ข้อมูล ถ้ามี]
-- สิ่งที่เราช่วยได้: [ใส่ข้อมูล]
-- โทนที่ต้องการ: [สุภาพ / จริงใจ / มืออาชีพ]
+## Response format
 
-เงื่อนไข:
-- เริ่มด้วยการรับฟังและแสดงความเข้าใจ
-- อย่าเถียงลูกค้า
-- อย่าโยนความผิด
-- ถ้าบริษัทผิด ให้ขอโทษอย่างเหมาะสม
-- เสนอ next step ที่ชัดเจน
-- เขียน 2 เวอร์ชัน: แบบสั้น และแบบเต็ม
-```
+By default, provide:
+1. a short version for chat
+2. a fuller version for formal reply
+3. a short note on when to use each
 
-## ผลลัพธ์ที่ควรได้
-ข้อความตอบลูกค้าที่สุภาพและพร้อมนำไปใช้จริง
+## Tone guidance
 
-## ตัวอย่าง input
-- ข้อความของลูกค้า: สั่งของไปตั้งแต่สัปดาห์ก่อน แต่ยังไม่ได้รับของเลย ติดต่อก็ไม่มีใครตอบ
-- สาเหตุของปัญหา: ระบบติดตามพัสดุอัปเดตช้า และทีมตอบแชทตกหล่น
-- สิ่งที่เราช่วยได้: ตรวจสถานะให้ทันทีและติดตามให้จนจบ
-- โทนที่ต้องการ: จริงใจและมืออาชีพ
+The reply should feel:
+- respectful
+- calm
+- sincere
+- responsible
+- solution-oriented
 
-## ตัวอย่าง output
-สวัสดีค่ะ ต้องขออภัยอย่างมากที่ทำให้คุณลูกค้าไม่สะดวกและต้องรอนานนะคะ ทางทีมเข้าใจความกังวลของคุณลูกค้าดีค่ะ
+Avoid robotic apology language. Keep it natural.
 
-ตอนนี้ทางเรากำลังเร่งตรวจสอบสถานะพัสดุให้ทันที และจะติดตามให้จนกว่าจะเรียบร้อย หากสะดวก รบกวนส่งเลขคำสั่งซื้อมาเพิ่มเติมได้เลยนะคะ ทางทีมจะรีบดูแลให้ค่ะ
+## Safety / risk note
 
-## ข้อควรระวัง
-ถ้าเป็นเคสอ่อนไหวหรือมีประเด็นทางกฎหมาย ควรให้หัวหน้าทีมหรือผู้รับผิดชอบตรวจทานก่อนส่งจริง
+If the complaint includes legal threats, payment disputes, defamation risk, safety issues, or requests for compensation, recommend human review before sending.
+
+## References
+
+For examples and a reusable end-user prompt pattern, see `references/examples.md`.

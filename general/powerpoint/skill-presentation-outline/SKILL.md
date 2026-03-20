@@ -1,67 +1,44 @@
-# ช่วยทำโครงสไลด์นำเสนอ
+---
+name: thai-presentation-outline
+description: Turn a Thai or English topic, business idea, or rough notes into a clear Thai slide outline for presentations to executives, clients, or internal teams. Use when the user needs help structuring a deck before building it in PowerPoint or Google Slides.
+---
 
-## สกิลนี้ช่วยอะไร
-ช่วยเปลี่ยนหัวข้อหรือไอเดียที่ยังกระจัดกระจาย ให้กลายเป็นโครงสไลด์ที่มีลำดับเรื่องชัดเจน เหมาะกับการนำเสนอในที่ประชุม ลูกค้า หรือผู้บริหาร
+# Thai Presentation Outline
 
-## เหมาะกับแผนกไหน
-ทุกแผนก
+Create a simple, logical slide structure before deck production.
 
-## ใช้ได้กับ
-- Claude
-- ChatGPT
-- Gemini
+## Output requirements
 
-## ใช้เมื่อไหร่
-ใช้เมื่อต้องทำสไลด์ แต่ยังไม่รู้ว่าจะเรียงเนื้อหาอย่างไร หรืออยากได้โครงเรื่องก่อนลงมือทำใน PowerPoint
+- Write in Thai unless the user asks otherwise
+- Optimize for clarity and flow, not slide count theater
+- Keep only slides that materially support the presentation goal
+- Suggest appropriate content type per slide when useful: bullets, chart, table, or visual
 
-## ต้องใส่อะไรบ้าง
-- หัวข้อที่ต้องนำเสนอ
-- คนฟังเป็นใคร
-- เป้าหมายของการนำเสนอ
-- ข้อมูลสำคัญที่ต้องมี
-- จำนวนสไลด์โดยประมาณ
+## Working method
 
-## Prompt พร้อมใช้
-```text
-ช่วยออกแบบโครงสไลด์นำเสนอเป็นภาษาไทย
+1. Identify the audience
+2. Identify the decision or outcome the presentation is meant to drive
+3. Group information into a logical narrative
+4. Produce a slide-by-slide outline
+5. Note where visuals or data would help
 
-ข้อมูลมีดังนี้:
-- หัวข้อ: [ใส่ข้อมูล]
-- กลุ่มผู้ฟัง: [เช่น ผู้บริหาร / ลูกค้า / ทีมภายใน]
-- เป้าหมายของการนำเสนอ: [ใส่ข้อมูล]
-- ข้อมูลสำคัญที่ต้องมี: [ใส่ข้อมูล]
-- จำนวนสไลด์โดยประมาณ: [ใส่ข้อมูล]
+## Default output structure
 
-ต้องการ output ตามนี้:
-1. ชื่อสไลด์แต่ละหน้า
-2. จุดสำคัญที่ควรอยู่ในแต่ละสไลด์
-3. ลำดับการเล่าเรื่องโดยรวม
-4. ถ้ามี ช่วยแนะนำว่าสไลด์ไหนควรใช้กราฟ ตาราง หรือ bullet
+1. overall storyline
+2. slide titles in order
+3. key points for each slide
+4. optional note on chart/table/visual suggestions
 
-เงื่อนไข:
-- โครงเรื่องต้องเข้าใจง่าย
-- ไม่ใส่สไลด์เกินจำเป็น
-- ทำให้ผู้ฟังจับประเด็นได้เร็ว
-```
+## Tone guidance
 
-## ผลลัพธ์ที่ควรได้
-โครงสไลด์ที่พร้อมนำไปทำต่อใน PowerPoint หรือ Google Slides
+Prefer a structure that feels:
+- simple
+- executive-friendly
+- persuasive without overselling
+- easy to turn into real slides
 
-## ตัวอย่าง input
-- หัวข้อ: แผนการใช้ AI ในทีมบริการลูกค้า
-- กลุ่มผู้ฟัง: ผู้บริหาร
-- เป้าหมายของการนำเสนอ: ขออนุมัติโครงการนำร่อง
-- ข้อมูลสำคัญที่ต้องมี: ปัญหาปัจจุบัน แนวทางแก้ ผลลัพธ์ที่คาดหวัง งบประมาณคร่าว ๆ
-- จำนวนสไลด์โดยประมาณ: 7 หน้า
+Avoid bloated outlines with filler slides.
 
-## ตัวอย่าง output
-1. ปัญหาปัจจุบันของทีมบริการลูกค้า
-2. โอกาสในการใช้ AI เข้ามาช่วย
-3. แนวทางโครงการนำร่อง
-4. ผลลัพธ์ที่คาดหวัง
-5. ทรัพยากรและงบประมาณ
-6. ความเสี่ยงและวิธีลดความเสี่ยง
-7. ข้อเสนอเพื่อการตัดสินใจ
+## References
 
-## ข้อควรระวัง
-AI ช่วยจัดโครงได้ แต่ควรให้คนตรวจตรรกะของเนื้อหาและความเหมาะสมกับผู้ฟังก่อนใช้งานจริง
+For examples and a reusable end-user prompt pattern, see `references/examples.md`.

@@ -1,65 +1,55 @@
-# เขียนโพสต์โปรโมตสินค้า/บริการ
+---
+name: thai-marketing-post-writer
+description: Write Thai promotional posts for products, services, campaigns, or offers for channels like Facebook, LINE, and general social media. Use when the user wants simple, persuasive Thai marketing copy tailored to a target audience without sounding too aggressive or overly technical.
+---
 
-## สกิลนี้ช่วยอะไร
-ช่วยเขียนโพสต์โปรโมตสินค้า หรือบริการเป็นภาษาไทยให้อ่านง่าย น่าสนใจ และเหมาะกับการใช้ใน Facebook, LINE, หรือช่องทางออนไลน์ทั่วไป
+# Thai Marketing Post Writer
 
-## เหมาะกับแผนกไหน
-การตลาด / เจ้าของธุรกิจ / ฝ่ายขาย / Admin เพจ
+Write practical Thai promotional copy for business and SME use.
 
-## ใช้ได้กับ
-- Claude
-- ChatGPT
-- Gemini
+## Output requirements
 
-## ใช้เมื่อไหร่
-ใช้เมื่อต้องการเขียนโพสต์โปรโมตสินค้า บริการ โปรโมชัน หรือประกาศแคมเปญแบบรวดเร็ว
+- Write in Thai
+- Emphasize customer benefit, not just product features
+- Keep the language easy to understand for normal business audiences
+- Avoid hype, spammy phrasing, and excessive exclamation marks
+- Adapt length to the requested channel when specified
 
-## ต้องใส่อะไรบ้าง
-- ชื่อสินค้า/บริการ
-- จุดเด่น
-- กลุ่มเป้าหมาย
-- โปรโมชัน (ถ้ามี)
-- ช่องทางติดต่อหรือ call to action
-- โทนที่ต้องการ
+## What to collect before writing
 
-## Prompt พร้อมใช้
-```text
-ช่วยเขียนโพสต์โปรโมตสินค้า/บริการเป็นภาษาไทย
+Ask for or infer:
+- product or service name
+- key selling points
+- target audience
+- promotion or offer
+- desired call to action
+- preferred tone
+- channel if known
 
-ข้อมูลมีดังนี้:
-- ชื่อสินค้า/บริการ: [ใส่ข้อมูล]
-- จุดเด่น: [ใส่ข้อมูล]
-- กลุ่มเป้าหมาย: [ใส่ข้อมูล]
-- โปรโมชัน: [ใส่ข้อมูล]
-- ช่องทางติดต่อ / Call to action: [ใส่ข้อมูล]
-- โทนที่ต้องการ: [เช่น เป็นกันเอง / มืออาชีพ / กระตุ้นการตัดสินใจ]
+## Writing approach
 
-เงื่อนไข:
-- เขียนให้อ่านง่าย
-- เน้นประโยชน์ที่ลูกค้าจะได้รับ
-- ไม่ขายแข็งเกินไป
-- ทำ 3 เวอร์ชัน
-- แต่ละเวอร์ชันความยาวไม่เกิน 150 คำ
-```
+1. Start with a hook or clear value statement
+2. Translate features into benefits
+3. Keep the post easy to skim
+4. End with a direct call to action
+5. Provide multiple versions when useful
 
-## ผลลัพธ์ที่ควรได้
-โพสต์ภาษาไทย 3 เวอร์ชันที่พร้อมนำไปปรับใช้ต่อได้ทันที
+## Channel adaptation
 
-## ตัวอย่าง input
-- ชื่อสินค้า/บริการ: บริการทำระบบตอบแชทลูกค้าอัตโนมัติด้วย AI
-- จุดเด่น: ตอบเร็ว 24 ชั่วโมง ลดภาระทีมแอดมิน ใช้งานกับ LINE ได้
-- กลุ่มเป้าหมาย: ธุรกิจ SME และร้านค้าออนไลน์
-- โปรโมชัน: ทดลองใช้งานฟรี 7 วัน
-- ช่องทางติดต่อ / Call to action: ทัก inbox เพื่อขอ demo
-- โทนที่ต้องการ: มืออาชีพแต่เข้าถึงง่าย
+- Facebook: balanced structure, readable in short paragraphs
+- LINE / chat broadcast: shorter, warmer, more direct
+- corporate page: more polished and professional
 
-## ตัวอย่าง output
-ลูกค้าทักมาเมื่อไรก็ตอบได้ทันที
+## Tone guidance
 
-ยกระดับการตอบแชทของธุรกิจคุณด้วยระบบ AI chatbot ที่ช่วยตอบลูกค้าอัตโนมัติได้ 24 ชั่วโมง ใช้งานร่วมกับ LINE ได้ ลดภาระทีมแอดมิน และช่วยให้ไม่พลาดโอกาสในการขาย
+Prefer copy that feels:
+- clear
+- helpful
+- credible
+- locally natural in Thai
 
-ทดลองใช้ฟรี 7 วัน
-สนใจทัก inbox เพื่อขอ demo ได้เลย
+Avoid jargon unless the target audience clearly expects it.
 
-## ข้อควรระวัง
-ควรตรวจทานคำกล่าวอ้างทางการตลาด โปรโมชั่น และชื่อสินค้าให้ถูกต้องก่อนโพสต์จริง
+## References
+
+For examples and a reusable end-user prompt pattern, see `references/examples.md`.

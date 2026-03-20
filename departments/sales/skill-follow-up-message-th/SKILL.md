@@ -1,61 +1,64 @@
-# เขียนข้อความติดตามลูกค้า
+---
+name: thai-sales-follow-up
+description: Write polite Thai follow-up messages after a sales conversation, demo, quote, or proposal. Use when the user wants to follow up with a prospect or customer in Thai without sounding too aggressive, including after first contact, after sending information, after a meeting, or when checking decision progress.
+---
 
-## สกิลนี้ช่วยอะไร
-ช่วยเขียนข้อความติดตามลูกค้าเป็นภาษาไทยให้สุภาพ กระชับ และดูเป็นมืออาชีพ โดยไม่กดดันลูกค้ามากเกินไป
+# Thai Sales Follow-Up
 
-## เหมาะกับแผนกไหน
-ฝ่ายขาย / เจ้าของธุรกิจ / Account / ที่ปรึกษา
+Write short, polite, professional Thai follow-up messages for sales contexts.
 
-## ใช้ได้กับ
-- Claude
-- ChatGPT
-- Gemini
+## Output requirements
 
-## ใช้เมื่อไหร่
-ใช้หลังจากคุยกับลูกค้าแล้ว และต้องการทักติดตามต่อ เช่น หลังส่งข้อมูล หลังประชุม หรือหลังเสนอราคา
+- Write in Thai
+- Keep the message concise and easy to read
+- Use a polite, business-appropriate tone
+- Avoid sounding pushy, passive-aggressive, or desperate
+- End with a clear but low-pressure next step
 
-## ต้องใส่อะไรบ้าง
-- ชื่อลูกค้า
-- ธุรกิจหรือบริการที่เสนอ
-- สิ่งที่คุยกันล่าสุด
-- เป้าหมายของข้อความนี้
-- โทนที่ต้องการ (สุภาพ / เป็นกันเอง / มืออาชีพ)
+## What to collect before writing
 
-## Prompt พร้อมใช้
-```text
-ช่วยเขียนข้อความติดตามลูกค้าเป็นภาษาไทย
+Ask for or infer these inputs when available:
+- customer name
+- product or service being discussed
+- last interaction or context
+- goal of the follow-up
+- preferred tone
 
-ข้อมูลมีดังนี้:
-- ชื่อลูกค้า: [ใส่ชื่อ]
-- ธุรกิจ/บริการที่เสนอ: [ใส่ข้อมูล]
-- สิ่งที่คุยกันล่าสุด: [ใส่ข้อมูล]
-- เป้าหมายของข้อความนี้: [เช่น ขอเวลานัดคุยต่อ / ติดตามการตัดสินใจ / ส่งข้อมูลเพิ่มเติม]
-- โทนที่ต้องการ: [สุภาพ / เป็นกันเอง / มืออาชีพ]
+If important details are missing, make the smallest reasonable assumption and state it briefly.
 
-เงื่อนไข:
-- เขียนให้สั้น กระชับ อ่านง่าย
-- สุภาพ แต่ไม่แข็งเกินไป
-- ไม่กดดันลูกค้า
-- ปิดท้ายด้วย next step ที่ชัดเจน
-- ช่วยเขียนให้ 3 เวอร์ชัน
-```
+## Writing approach
 
-## ผลลัพธ์ที่ควรได้
-ข้อความติดตามลูกค้า 3 เวอร์ชัน ที่เลือกใช้ได้ทันที
+1. Open politely
+2. Reference the previous interaction clearly
+3. State the reason for following up
+4. Offer help, clarification, or a next step
+5. Close politely
 
-## ตัวอย่าง input
-- ชื่อลูกค้า: คุณนนท์
-- ธุรกิจ/บริการที่เสนอ: ระบบ AI chatbot สำหรับตอบลูกค้าใน LINE
-- สิ่งที่คุยกันล่าสุด: คุย demo ไปเมื่อวันจันทร์ และลูกค้าขอเวลาคุยกับทีมก่อน
-- เป้าหมายของข้อความนี้: ติดตามความคืบหน้าและเสนอช่วยตอบคำถามเพิ่มเติม
-- โทนที่ต้องการ: มืออาชีพ
+## Tone guidance
 
-## ตัวอย่าง output
-สวัสดีครับคุณนนท์
+Prefer Thai business language that feels:
+- respectful
+- warm but not overly casual
+- direct but not blunt
+- confident without pressure
 
-ขออนุญาตติดตามความคืบหน้าจากที่เราได้คุย demo ระบบ AI chatbot สำหรับ LINE กันเมื่อวันจันทร์นะครับ ไม่ทราบว่าทางทีมมีข้อสงสัยเพิ่มเติมหรือต้องการให้ผมช่วยอธิบายส่วนไหนเพิ่มไหมครับ
+Avoid:
+- guilt-tripping language
+- repeated urgency unless the user explicitly wants urgency
+- exaggerated claims
 
-หากสะดวก ผมยินดีสรุปข้อมูลเพิ่มเติมให้เพื่อช่วยในการตัดสินใจครับ
+## Response format
 
-## ข้อควรระวัง
-ควรตรวจทานชื่อ รายละเอียดบริการ และระดับความสุภาพก่อนส่งจริง
+By default, provide:
+1. one recommended version
+2. two alternative versions with slightly different tone
+3. a short note on when to use each version
+
+If the user asks for a specific channel, adapt appropriately:
+- LINE / chat: shorter and more conversational
+- email: slightly more structured
+- executive / B2B stakeholder: more formal and crisp
+
+## References
+
+For examples and a reusable end-user prompt pattern, see `references/examples.md`.

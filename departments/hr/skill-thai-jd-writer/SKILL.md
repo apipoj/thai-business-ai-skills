@@ -1,60 +1,46 @@
-# เขียน JD แบบเข้าใจง่าย
+---
+name: thai-jd-writer
+description: Write clear Thai job descriptions for non-technical or mixed business roles. Use when the user wants to create or improve a JD in Thai so applicants can quickly understand responsibilities, requirements, and working style without vague or bloated language.
+---
 
-## สกิลนี้ช่วยอะไร
-ช่วยร่าง Job Description ภาษาไทยให้อ่านง่าย ชัดเจน และไม่เขียนแบบกว้างเกินไปจนคนสมัครไม่เข้าใจ
+# Thai JD Writer
 
-## เหมาะกับแผนกไหน
-HR / ผู้จัดการทีม / เจ้าของธุรกิจ
+Write Thai job descriptions that are clear, practical, and easy for candidates to understand.
 
-## ใช้ได้กับ
-- Claude
-- ChatGPT
-- Gemini
+## Output requirements
 
-## ใช้เมื่อไหร่
-ใช้เมื่อต้องการประกาศรับสมัครงานใหม่ หรือปรับ JD เดิมให้ชัดเจนขึ้น
+- Write in Thai
+- Keep responsibilities concrete
+- Avoid vague corporate filler
+- Distinguish must-have requirements from nice-to-have requirements
+- Make the role understandable within a quick scan
 
-## ต้องใส่อะไรบ้าง
-- ชื่อตำแหน่ง
-- หน้าที่หลัก
-- คุณสมบัติที่ต้องมี
-- คุณสมบัติเสริม
-- รูปแบบงาน
-- จุดเด่นของบริษัทหรือทีม
+## Working method
 
-## Prompt พร้อมใช้
-```text
-ช่วยเขียน Job Description ภาษาไทยให้อ่านง่ายและเข้าใจเร็ว
+1. Identify role title and reporting context if known
+2. Clarify core responsibilities
+3. Separate required vs preferred qualifications
+4. Mention work arrangement if provided
+5. Add a short top summary of the role
 
-ข้อมูลมีดังนี้:
-- ตำแหน่ง: [ใส่ข้อมูล]
-- หน้าที่หลัก: [ใส่ข้อมูล]
-- คุณสมบัติที่ต้องมี: [ใส่ข้อมูล]
-- คุณสมบัติเสริม: [ใส่ข้อมูล]
-- รูปแบบงาน: [เช่น onsite / hybrid / remote]
-- จุดเด่นของบริษัทหรือทีม: [ใส่ข้อมูล]
+## Recommended output structure
 
-เงื่อนไข:
-- เขียนให้ชัดเจน ไม่ฟุ้ง
-- ไม่ใช้ภาษาทางการเกินไป
-- แยกหัวข้อให้อ่านง่าย
-- ทำให้คนสมัครเข้าใจว่าเขาต้องทำอะไรจริง ๆ
-- เพิ่มสรุปสั้น ๆ ตอนต้น 1 ย่อหน้า
-```
+1. short role summary
+2. responsibilities
+3. must-have qualifications
+4. preferred qualifications
+5. work format / team context
 
-## ผลลัพธ์ที่ควรได้
-JD ภาษาไทยที่พร้อมนำไปประกาศรับสมัครได้ทันที
+## Tone guidance
 
-## ตัวอย่าง input
-- ตำแหน่ง: Sales Executive
-- หน้าที่หลัก: ดูแลลูกค้าใหม่ นัดคุยลูกค้า ติดตามดีล และประสานงานทีมภายใน
-- คุณสมบัติที่ต้องมี: สื่อสารดี รับผิดชอบสูง ใช้ Google Workspace ได้
-- คุณสมบัติเสริม: มีประสบการณ์ขาย B2B
-- รูปแบบงาน: Hybrid
-- จุดเด่นของบริษัทหรือทีม: ทีมเล็ก โตเร็ว ได้ทำงานใกล้ชิดผู้บริหาร
+Prefer plain Thai that feels:
+- clear
+- modern
+- professional
+- not overly formal
 
-## ตัวอย่าง output
-เรากำลังมองหา Sales Executive ที่ช่วยดูแลลูกค้าใหม่ ติดตามโอกาสการขาย และประสานงานกับทีมภายในเพื่อปิดงานได้อย่างราบรื่น เหมาะกับคนที่สื่อสารดี คล่องตัว และอยากเติบโตไปพร้อมกับทีม
+Avoid inflated descriptions that make the role sound broader than it is.
 
-## ข้อควรระวัง
-ควรตรวจทานเรื่องขอบเขตงาน สวัสดิการ และคุณสมบัติที่อาจเข้าข่ายกีดกันผู้สมัครโดยไม่จำเป็น
+## References
+
+For examples and a reusable end-user prompt pattern, see `references/examples.md`.

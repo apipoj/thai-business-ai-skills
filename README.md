@@ -62,8 +62,11 @@
 ### แบบที่ 2: ใช้กับระบบที่ import skill ได้
 หลาย repo ยอดนิยมจะลิงก์ตรงไปที่ `SKILL.md` เพื่อให้ user เปิดแล้ว import หรือ copy ได้ทันที
 
-ดังนั้น repo นี้จะพยายามวางไฟล์ในรูปแบบนี้:
+repo นี้จึงพยายามใช้ **standard skill layout** มากขึ้น:
 - `.../skill-name/SKILL.md`
+- `.../skill-name/references/...`
+
+โดย `SKILL.md` จะเป็นไฟล์มาตรฐานที่มี YAML frontmatter (`name`, `description`) และคำสั่งแบบ agent-facing ส่วนตัวอย่างและ prompt pattern ยาว ๆ จะอยู่ใน `references/`
 
 เพื่อให้:
 - เปิดอ่านง่าย

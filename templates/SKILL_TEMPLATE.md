@@ -1,34 +1,24 @@
-# ชื่อสกิล
+---
+name: skill-name
+description: Describe clearly what the skill does and when it should be used. Include likely trigger situations, user intents, and task context.
+---
 
-## สกิลนี้ช่วยอะไร
-อธิบายสั้น ๆ ว่าสกิลนี้ช่วยทำอะไร
+# Skill Title
 
-## เหมาะกับแผนกไหน
-เช่น ฝ่ายขาย / การตลาด / HR / ผู้บริหาร / งานทั่วไป
+Write concise agent-facing instructions here.
 
-## ใช้ได้กับ
-- Claude
-- ChatGPT
-- Gemini
-- AI tools อื่น ๆ
+## Output requirements
 
-## ใช้เมื่อไหร่
-อธิบายสถานการณ์ที่ควรใช้สกิลนี้
+State what the output should look like.
 
-## ต้องใส่อะไรบ้าง
-ระบุข้อมูลที่ผู้ใช้ควรเตรียม
+## Working method
 
-## Prompt พร้อมใช้
-ใส่ prompt ที่คัดลอกไปใช้ได้ทันที
+List the steps the agent should follow.
 
-## ผลลัพธ์ที่ควรได้
-อธิบายว่าควรได้ output แบบไหนกลับมา
+## Tone guidance
 
-## ตัวอย่าง input
-ยกตัวอย่างข้อมูลที่ใส่เข้าไป
+Describe the desired style, tone, or localization.
 
-## ตัวอย่าง output
-ยกตัวอย่างผลลัพธ์ที่ดี
+## References
 
-## ข้อควรระวัง
-บอกสิ่งที่ผู้ใช้ควรตรวจทานก่อนนำไปใช้จริง
+Point to files in `references/` when examples, domain notes, or reusable prompt patterns are needed.
