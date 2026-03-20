@@ -37,6 +37,10 @@
 
 รายละเอียดเชิง maintainer ที่ย้ายออกมาจาก `README.md` อยู่ในไฟล์นี้ เพื่อให้หน้า README หลักเน้นผู้ใช้งานทั่วไปมากกว่า
 
+หากต้องการให้ agent หรือ contributor เพิ่ม skill ใหม่ตามมาตรฐานของ repo นี้ ให้ใช้ skill นี้เป็นตัวนำทาง:
+
+- `repo-maintenance/add-new-skill-to-thai-business-ai-skills/SKILL.md`
+
 ใช้โครงสร้างนี้:
 
 ```text
