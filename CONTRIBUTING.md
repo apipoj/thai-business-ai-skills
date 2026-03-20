@@ -119,3 +119,10 @@ description: Explain what the skill does and when it should be used.
 repo นี้เน้นคุณภาพมากกว่าปริมาณ
 
 เพิ่มช้าได้ แต่ต้องอ่านง่าย ใช้จริงได้ และเหมาะกับธุรกิจไทย
+
+
+## Skill demand and pain-point research
+
+ก่อนเพิ่ม skill ใหม่ ควรอ้างอิง pain point หลักของธุรกิจจากไฟล์นี้ด้วย:
+
+- `repo-maintenance/add-new-skill-to-thai-business-ai-skills/references/pain-point-index.md`

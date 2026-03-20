@@ -4,9 +4,44 @@
 
 - Is this a real recurring business task?
 - Is it useful for Thai users specifically?
-- Should this be original, external reference, or wrapper?
+- Should this be original, external reference, wrapper, or example inside an existing skill?
 - Does a similar skill already exist in the repo?
 - Is the category choice correct?
+
+## Keyword search checklist
+
+Before adding a skill, generate and search:
+- Thai direct phrase
+- Thai alternative phrase
+- English direct phrase
+- English alternative phrase
+- broader business function
+- neighboring task names
+
+Examples:
+- “เขียนข้อความติดตามลูกค้า”
+- “follow up ลูกค้า”
+- “sales follow-up”
+- “ติดตามดีล”
+- “check decision progress”
+
+## Duplicate check checklist
+
+Search in:
+- folder names
+- `name:` in frontmatter
+- `description:` fields
+- main `README.md`
+- category `README.md`
+- nearby `references/examples.md` files if overlap is likely
+
+Then decide:
+- new skill
+- expand existing skill
+- add example to existing skill
+- wrapper
+- external link
+- reject as duplicate
 
 ## Files to create
 
