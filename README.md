@@ -62,10 +62,10 @@
 ## Start Here
 
 ถ้าคุณเพิ่งเข้ามาใน repo นี้ ให้เริ่มจาก:
-- ฝ่ายขาย: [เขียนข้อความติดตามลูกค้า](departments/sales/skill-follow-up-message-th/SKILL.md)
-- การตลาด: [เขียนโพสต์โปรโมตสินค้า/บริการ](departments/marketing/skill-thai-marketing-post/SKILL.md)
-- บริการลูกค้า: [ตอบลูกค้าร้องเรียนอย่างสุภาพ](departments/customer-support/skill-thai-complaint-reply/SKILL.md)
-- HR: [เขียน JD แบบเข้าใจง่าย](departments/hr/skill-thai-jd-writer/SKILL.md)
+- ฝ่ายขาย: [เขียนข้อความติดตามลูกค้า](departments/sales/skill-follow-up-message-th/SKILL.md) / [คัดกรอง lead เบื้องต้น](departments/sales/skill-lead-qualification-th/SKILL.md)
+- การตลาด: [เขียนโพสต์โปรโมตสินค้า/บริการ](departments/marketing/skill-thai-marketing-post/SKILL.md) / [คิดไอเดียคอนเทนต์ 30 วัน](departments/marketing/skill-content-calendar-30-days-th/SKILL.md)
+- บริการลูกค้า: [ตอบลูกค้าร้องเรียนอย่างสุภาพ](departments/customer-support/skill-thai-complaint-reply/SKILL.md) / [สรุปปัญหาจากแชทลูกค้าเป็น ticket summary](departments/customer-support/skill-ticket-summary-from-chat-th/SKILL.md)
+- HR: [เขียน JD แบบเข้าใจง่าย](departments/hr/skill-thai-jd-writer/SKILL.md) / [สร้างคำถามสัมภาษณ์ตามตำแหน่งงาน](departments/hr/skill-interview-questions-by-role-th/SKILL.md)
 - Meetings: [สรุปประชุมพร้อม Action Items](general/meetings/skill-meeting-summary-action-items-th/SKILL.md)
 - ผู้บริหาร: [สรุปรายงานให้ผู้บริหารอ่านง่าย](departments/leadership/skill-exec-summary/SKILL.md)
 - PowerPoint: [ช่วยทำโครงสไลด์นำเสนอ](general/powerpoint/skill-presentation-outline/SKILL.md)
@@ -112,21 +112,31 @@ repo นี้พยายามใช้โครงสร้างแบบ st
 ### Sales
 - [หน้ารวม Sales Skills](departments/sales/README.md)
 - [เขียนข้อความติดตามลูกค้า](departments/sales/skill-follow-up-message-th/SKILL.md)
+- [คัดกรอง lead เบื้องต้น](departments/sales/skill-lead-qualification-th/SKILL.md)
+- [สรุป discovery call สำหรับทีมขาย](departments/sales/skill-discovery-call-summary-th/SKILL.md)
+- [ตอบ objection ลูกค้าแบบสุภาพ](departments/sales/skill-objection-handling-th/SKILL.md)
 
 ### Marketing
 - [หน้ารวม Marketing Skills](departments/marketing/README.md)
 - [เขียนโพสต์โปรโมตสินค้า/บริการ](departments/marketing/skill-thai-marketing-post/SKILL.md)
+- [คิดไอเดียคอนเทนต์ 30 วัน](departments/marketing/skill-content-calendar-30-days-th/SKILL.md)
+- [เขียนแคปชันหลายเวอร์ชันตามโทน](departments/marketing/skill-caption-variants-th/SKILL.md)
 
 ### Customer Support
 - [หน้ารวม Customer Support Skills](departments/customer-support/README.md)
 - [ตอบลูกค้าร้องเรียนอย่างสุภาพ](departments/customer-support/skill-thai-complaint-reply/SKILL.md)
+- [สรุปปัญหาจากแชทลูกค้าเป็น ticket summary](departments/customer-support/skill-ticket-summary-from-chat-th/SKILL.md)
+- [เขียน FAQ จากคำถามที่ถามบ่อย](departments/customer-support/skill-faq-from-repeated-questions-th/SKILL.md)
 
 ### HR
 - [หน้ารวม HR Skills](departments/hr/README.md)
 - [เขียน JD แบบเข้าใจง่าย](departments/hr/skill-thai-jd-writer/SKILL.md)
+- [สร้างคำถามสัมภาษณ์ตามตำแหน่งงาน](departments/hr/skill-interview-questions-by-role-th/SKILL.md)
 
 ### Operations
 - [หน้ารวม Operations Skills](departments/operations/README.md)
+- [เขียนประกาศหรือข้อความภายในทีม](departments/operations/skill-internal-announcement-th/SKILL.md)
+- [เขียน SOP เบื้องต้นจากขั้นตอนงาน](departments/operations/skill-sop-draft-th/SKILL.md)
 
 ### Finance
 - [หน้ารวม Finance Skills](departments/finance/README.md)
