@@ -154,7 +154,7 @@ cp -r general/meetings/skill-meeting-summary-action-items-th ~/.claude/skills/
 ## Start Here
 
 ถ้าคุณเพิ่งเข้ามาใน repo นี้ ให้เริ่มจาก:
-- ฝ่ายขาย: [เขียนข้อความติดตามลูกค้า](departments/sales/skill-follow-up-message-th/SKILL.md) / [คัดกรอง lead เบื้องต้น](departments/sales/skill-lead-qualification-th/SKILL.md)
+- ฝ่ายขาย: [เขียนข้อความติดตามลูกค้า](departments/sales/skill-follow-up-message-th/SKILL.md) / [คัดกรอง lead เบื้องต้น](departments/sales/skill-lead-qualification-th/SKILL.md) / [เขียนข้อความขอข้อมูลเพิ่มเติมจากลูกค้า](departments/sales/skill-request-more-customer-info-th/SKILL.md)
 - การตลาด: [เขียนโพสต์โปรโมตสินค้า/บริการ](departments/marketing/skill-thai-marketing-post/SKILL.md) / [คิดไอเดียคอนเทนต์ 30 วัน](departments/marketing/skill-content-calendar-30-days-th/SKILL.md)
 - บริการลูกค้า: [ตอบลูกค้าร้องเรียนอย่างสุภาพ](departments/customer-support/skill-thai-complaint-reply/SKILL.md) / [สรุปปัญหาจากแชทลูกค้าเป็น ticket summary](departments/customer-support/skill-ticket-summary-from-chat-th/SKILL.md)
 - HR: [เขียน JD แบบเข้าใจง่าย](departments/hr/skill-thai-jd-writer/SKILL.md) / [สร้างคำถามสัมภาษณ์ตามตำแหน่งงาน](departments/hr/skill-interview-questions-by-role-th/SKILL.md)
@@ -190,6 +190,7 @@ repo นี้พยายามใช้โครงสร้างแบบ st
 สกิลเด่นที่เหมาะกับการเริ่มต้นใช้งาน:
 
 - [เขียนข้อความติดตามลูกค้า](departments/sales/skill-follow-up-message-th/SKILL.md) — ช่วยติดตามลูกค้าแบบสุภาพ ไม่กดดัน
+- [เขียนข้อความขอข้อมูลเพิ่มเติมจากลูกค้า](departments/sales/skill-request-more-customer-info-th/SKILL.md) — ช่วยเก็บ requirement หรือข้อมูลที่ยังขาดแบบไม่ทำให้ลูกค้ารู้สึกยุ่งยาก
 - [เขียนโพสต์โปรโมตสินค้า/บริการ](departments/marketing/skill-thai-marketing-post/SKILL.md) — ช่วยทำโพสต์การตลาดภาษาไทยแบบใช้งานได้จริง
 - [ตอบลูกค้าร้องเรียนอย่างสุภาพ](departments/customer-support/skill-thai-complaint-reply/SKILL.md) — ช่วยลดความตึงเครียดและตอบอย่างมืออาชีพ
 - [เขียน JD แบบเข้าใจง่าย](departments/hr/skill-thai-jd-writer/SKILL.md) — ช่วยให้ประกาศรับสมัครชัดเจนขึ้น
@@ -207,6 +208,7 @@ repo นี้พยายามใช้โครงสร้างแบบ st
 - [คัดกรอง lead เบื้องต้น](departments/sales/skill-lead-qualification-th/SKILL.md) - ช่วยสรุปว่า lead น่าสนใจแค่ไหนและควรถามอะไรต่อ
 - [สรุป discovery call สำหรับทีมขาย](departments/sales/skill-discovery-call-summary-th/SKILL.md) - ช่วยย่อยโน้ตคุยลูกค้าให้เป็น pain point, need และ next step
 - [ตอบ objection ลูกค้าแบบสุภาพ](departments/sales/skill-objection-handling-th/SKILL.md) - ช่วยตอบข้อกังวลเรื่องราคา เวลา หรือการตัดสินใจอย่างมืออาชีพ
+- [เขียนข้อความขอข้อมูลเพิ่มเติมจากลูกค้า](departments/sales/skill-request-more-customer-info-th/SKILL.md) - ช่วยขอข้อมูลที่ยังขาดจากลูกค้าแบบสุภาพ ชัดเจน และตอบกลับง่าย
 
 ### Marketing
 - [หน้ารวม Marketing Skills](departments/marketing/README.md)

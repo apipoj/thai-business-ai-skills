@@ -7,3 +7,4 @@
 - [คัดกรอง lead เบื้องต้น](skill-lead-qualification-th/SKILL.md)
 - [สรุป discovery call สำหรับทีมขาย](skill-discovery-call-summary-th/SKILL.md)
 - [ตอบ objection ลูกค้าแบบสุภาพ](skill-objection-handling-th/SKILL.md)
+- [เขียนข้อความขอข้อมูลเพิ่มเติมจากลูกค้า](skill-request-more-customer-info-th/SKILL.md)
