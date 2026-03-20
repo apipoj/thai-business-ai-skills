@@ -15,24 +15,21 @@ Write practical Thai promotional copy for business and SME use.
 - Avoid hype, spammy phrasing, and excessive exclamation marks
 - Adapt length to the requested channel when specified
 
-## What to collect before writing
+## Working method
 
-Ask for or infer:
-- product or service name
-- key selling points
-- target audience
-- promotion or offer
-- desired call to action
-- preferred tone
-- channel if known
-
-## Writing approach
-
-1. Start with a hook or clear value statement
-2. Translate features into benefits
-3. Keep the post easy to skim
-4. End with a direct call to action
-5. Provide multiple versions when useful
+1. Ask for or infer:
+   - product or service name
+   - key selling points
+   - target audience
+   - promotion or offer
+   - desired call to action
+   - preferred tone
+   - channel if known
+2. Start with a hook or clear value statement
+3. Translate features into benefits
+4. Keep the post easy to skim
+5. End with a direct call to action
+6. Provide multiple versions when useful
 
 ## Channel adaptation
 

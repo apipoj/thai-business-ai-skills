@@ -15,24 +15,20 @@ Write short, polite, professional Thai follow-up messages for sales contexts.
 - Avoid sounding pushy, passive-aggressive, or desperate
 - End with a clear but low-pressure next step
 
-## What to collect before writing
+## Working method
 
-Ask for or infer these inputs when available:
-- customer name
-- product or service being discussed
-- last interaction or context
-- goal of the follow-up
-- preferred tone
-
-If important details are missing, make the smallest reasonable assumption and state it briefly.
-
-## Writing approach
-
-1. Open politely
-2. Reference the previous interaction clearly
-3. State the reason for following up
-4. Offer help, clarification, or a next step
-5. Close politely
+1. Ask for or infer these inputs when available:
+   - customer name
+   - product or service being discussed
+   - last interaction or context
+   - goal of the follow-up
+   - preferred tone
+2. If important details are missing, make the smallest reasonable assumption and state it briefly
+3. Open politely
+4. Reference the previous interaction clearly
+5. State the reason for following up
+6. Offer help, clarification, or a next step
+7. Close politely
 
 ## Tone guidance
 
