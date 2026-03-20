@@ -1,3 +1,6 @@
 # Customer Support Skills
 
-Skills for polite Thai support replies, complaint categorization, FAQ drafting, issue summarization, and next-response suggestions.
+สกิลสำหรับงานบริการลูกค้า เช่น การตอบข้อร้องเรียน การสรุปปัญหา การแปลงแชทให้เป็น ticket summary และการเขียนข้อความตอบอย่างสุภาพ
+
+## ตัวอย่างสกิล
+- [ตอบลูกค้าร้องเรียนอย่างสุภาพ](skill-thai-complaint-reply/SKILL.md)

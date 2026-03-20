@@ -1,3 +1,6 @@
 # Marketing Skills
 
-Skills for content ideas, ad copy, campaign planning, social posts, market insight synthesis, and localized Thai messaging.
+สกิลสำหรับงานการตลาด เช่น เขียนโพสต์โปรโมตสินค้า คิดมุมสื่อสาร ทำคอนเทนต์ และปรับข้อความให้เหมาะกับกลุ่มลูกค้า
+
+## ตัวอย่างสกิล
+- [เขียนโพสต์โปรโมตสินค้า/บริการ](skill-thai-marketing-post/SKILL.md)

@@ -1,3 +1,6 @@
 # Leadership Skills
 
-Skills for executive updates, decision memos, strategy summaries, internal communication, and management reporting.
+สกิลสำหรับผู้บริหารหรือหัวหน้าทีม เช่น สรุปรายงานให้เข้าใจเร็ว เขียนอัปเดตภายใน ตัดประเด็นสำคัญ และช่วยจัดการข้อมูลให้พร้อมใช้ในการตัดสินใจ
+
+## ตัวอย่างสกิล
+- [สรุปรายงานให้ผู้บริหารอ่านง่าย](skill-exec-summary/SKILL.md)

@@ -1,3 +1,6 @@
 # HR Skills
 
-Skills for job descriptions, candidate screening, interview kits, onboarding materials, and internal HR communication.
+สกิลสำหรับงาน HR เช่น เขียน JD สรุปผู้สมัคร เตรียมคำถามสัมภาษณ์ และช่วยสื่อสารภายในแบบเข้าใจง่าย
+
+## ตัวอย่างสกิล
+- [เขียน JD แบบเข้าใจง่าย](skill-thai-jd-writer/SKILL.md)
