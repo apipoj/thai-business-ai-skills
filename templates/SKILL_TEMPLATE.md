@@ -1,37 +1,34 @@
-# Skill Name
+# ชื่อสกิล
 
-## Purpose
-Briefly explain what this skill helps the user accomplish.
+## สกิลนี้ช่วยอะไร
+อธิบายสั้น ๆ ว่าสกิลนี้ช่วยทำอะไร
 
-## Department
-Which business function this belongs to.
+## เหมาะกับแผนกไหน
+เช่น ฝ่ายขาย / การตลาด / HR / ผู้บริหาร / งานทั่วไป
 
-## Use with
+## ใช้ได้กับ
 - Claude
 - ChatGPT
 - Gemini
-- Other AI tools
+- AI tools อื่น ๆ
 
-## When to use
-List the situations where this skill is useful.
+## ใช้เมื่อไหร่
+อธิบายสถานการณ์ที่ควรใช้สกิลนี้
 
-## Input required
-Describe exactly what the user should provide.
+## ต้องใส่อะไรบ้าง
+ระบุข้อมูลที่ผู้ใช้ควรเตรียม
 
-## Prompt / Workflow
-Write the reusable prompt or multi-step workflow here.
+## Prompt พร้อมใช้
+ใส่ prompt ที่คัดลอกไปใช้ได้ทันที
 
-## Output format
-Describe the expected structure of the response.
+## ผลลัพธ์ที่ควรได้
+อธิบายว่าควรได้ output แบบไหนกลับมา
 
-## Thai context notes
-Explain tone, business etiquette, cultural context, or language localization guidance.
+## ตัวอย่าง input
+ยกตัวอย่างข้อมูลที่ใส่เข้าไป
 
-## Example input
-Provide a realistic example.
+## ตัวอย่าง output
+ยกตัวอย่างผลลัพธ์ที่ดี
 
-## Example output
-Provide a realistic example.
-
-## Limitations / Guardrails
-State what the skill should not be trusted to do without human review.
+## ข้อควรระวัง
+บอกสิ่งที่ผู้ใช้ควรตรวจทานก่อนนำไปใช้จริง

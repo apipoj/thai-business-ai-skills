@@ -1,3 +1,6 @@
 # Sales Skills
 
-Skills for lead qualification, follow-up, discovery call summaries, proposal drafting, objection handling, and sales messaging in Thai business contexts.
+สกิลสำหรับงานขาย เช่น การติดตามลูกค้า การสรุป discovery call การตอบ objection และการช่วยร่างข้อเสนอเบื้องต้น
+
+## ตัวอย่างสกิล
+- [เขียนข้อความติดตามลูกค้า](follow-up-message-th.md)

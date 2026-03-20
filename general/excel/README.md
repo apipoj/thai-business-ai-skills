@@ -1,3 +1,22 @@
 # Excel Skills
 
-Skills for formulas, cleanup, analysis prompts, spreadsheet explanation, and turning business questions into spreadsheet tasks.
+สกิลด้าน Excel ใน repo นี้จะใช้แนวทาง 2 แบบ:
+
+1. อ้างอิงสกิลต้นฉบับที่ดีอยู่แล้ว
+2. เพิ่มตัวอย่างการใช้งานให้เหมาะกับธุรกิจไทย
+
+## Recommended external skill
+- Anthropic xlsx skill: https://github.com/anthropics/skills/tree/main/skills/xlsx
+
+## ใช้ Excel skill ทำอะไรได้บ้าง
+- ช่วยคิดสูตร
+- ช่วยอธิบายสูตรที่อ่านยาก
+- ช่วยจัดข้อมูลให้สะอาดขึ้น
+- ช่วยวิเคราะห์ตารางยอดขาย/รายงาน
+- ช่วยสรุป insight จากข้อมูล
+
+## ตัวอย่าง use case สำหรับธุรกิจไทย
+- สรุปยอดขายรายเดือน
+- เช็กข้อมูลลูกค้าซ้ำ
+- จัดหมวดหมู่รายรับรายจ่าย
+- เตรียมรายงานผู้บริหารจากตารางดิบ
