@@ -1,3 +1,6 @@
 # Email Skills
 
-Skills for professional email drafting, follow-ups, reminders, negotiations, and multilingual email adaptation.
+สกิลสำหรับอีเมลธุรกิจ เช่น ตอบอีเมลอย่างมืออาชีพ ติดตามงาน ขอข้อมูลเพิ่มเติม และสื่อสารแบบสุภาพชัดเจน
+
+## Skills
+- [ตอบอีเมลธุรกิจอย่างมืออาชีพ](skill-professional-email-reply-th/SKILL.md)

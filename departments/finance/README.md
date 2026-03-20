@@ -1,3 +1,8 @@
 # Finance Skills
 
-Skills for reporting summaries, invoice/chasing drafts, finance explanations, categorization support, and management reporting prompts.
+สกิลสำหรับงานการเงินและรายงาน เช่น สรุปค่าใช้จ่าย ติดตามการชำระเงิน และย่อยข้อมูลตัวเลขให้พร้อมใช้ในมุมมองผู้บริหารหรือผู้จัดการ
+
+## Skills
+- [สรุปค่าใช้จ่ายแบบเข้าใจง่าย](skill-expense-summary-th/SKILL.md)
+- [เขียนข้อความติดตามการชำระเงินอย่างสุภาพ](skill-payment-reminder-th/SKILL.md)
+- [สรุปรายงานตัวเลขสำหรับผู้จัดการหรือผู้บริหาร](skill-management-report-summary-th/SKILL.md)

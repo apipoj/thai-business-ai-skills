@@ -1,6 +1,8 @@
 # Leadership Skills
 
-สกิลสำหรับผู้บริหารหรือหัวหน้าทีม เช่น สรุปรายงานให้เข้าใจเร็ว เขียนอัปเดตภายใน ตัดประเด็นสำคัญ และช่วยจัดการข้อมูลให้พร้อมใช้ในการตัดสินใจ
+สกิลสำหรับผู้บริหารหรือหัวหน้าทีม เช่น สรุปรายงาน ทำ decision memo และจัด weekly update ให้คนอ่านเข้าใจเร็วและตัดสินใจต่อได้ง่าย
 
-## ตัวอย่างสกิล
+## Skills
 - [สรุปรายงานให้ผู้บริหารอ่านง่าย](skill-exec-summary/SKILL.md)
+- [เขียน decision memo แบบกระชับ](skill-decision-memo-th/SKILL.md)
+- [สรุป weekly management update](skill-weekly-management-update-th/SKILL.md)
