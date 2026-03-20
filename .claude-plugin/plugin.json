@@ -1,0 +1,50 @@
+{
+  "name": "thai-business-ai-skills",
+  "description": "Practical AI skills for Thai business teams. Thai-first, simple, non-technical, and ready to use in real business work.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Apipoj / ALL-IN-AI"
+  },
+  "homepage": "https://github.com/apipoj/thai-business-ai-skills",
+  "repository": "https://github.com/apipoj/thai-business-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "thai",
+    "business",
+    "ai",
+    "skills",
+    "claude-code",
+    "sales",
+    "marketing",
+    "support",
+    "hr",
+    "operations",
+    "finance",
+    "leadership"
+  ],
+  "skills": [
+    "./departments/sales/skill-follow-up-message-th/SKILL.md",
+    "./departments/sales/skill-lead-qualification-th/SKILL.md",
+    "./departments/sales/skill-discovery-call-summary-th/SKILL.md",
+    "./departments/sales/skill-objection-handling-th/SKILL.md",
+    "./departments/marketing/skill-thai-marketing-post/SKILL.md",
+    "./departments/marketing/skill-content-calendar-30-days-th/SKILL.md",
+    "./departments/marketing/skill-caption-variants-th/SKILL.md",
+    "./departments/customer-support/skill-thai-complaint-reply/SKILL.md",
+    "./departments/customer-support/skill-ticket-summary-from-chat-th/SKILL.md",
+    "./departments/customer-support/skill-faq-from-repeated-questions-th/SKILL.md",
+    "./departments/hr/skill-thai-jd-writer/SKILL.md",
+    "./departments/hr/skill-interview-questions-by-role-th/SKILL.md",
+    "./departments/operations/skill-internal-announcement-th/SKILL.md",
+    "./departments/operations/skill-sop-draft-th/SKILL.md",
+    "./departments/finance/skill-expense-summary-th/SKILL.md",
+    "./departments/finance/skill-payment-reminder-th/SKILL.md",
+    "./departments/finance/skill-management-report-summary-th/SKILL.md",
+    "./departments/leadership/skill-exec-summary/SKILL.md",
+    "./departments/leadership/skill-decision-memo-th/SKILL.md",
+    "./departments/leadership/skill-weekly-management-update-th/SKILL.md",
+    "./general/meetings/skill-meeting-summary-action-items-th/SKILL.md",
+    "./general/powerpoint/skill-presentation-outline/SKILL.md",
+    "./general/email/skill-professional-email-reply-th/SKILL.md"
+  ]
+}

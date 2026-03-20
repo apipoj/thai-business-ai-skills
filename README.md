@@ -33,6 +33,8 @@
 
 ## Contents
 
+- [Install](#install)
+- [Skill Map](#skill-map)
 - [Start Here](#start-here)
 - [How to Use](#how-to-use)
 - [Featured Skills](#featured-skills)
@@ -56,6 +58,96 @@
 - [Who This Repo Is For](#who-this-repo-is-for)
 - [Important Cautions](#important-cautions)
 - [License](#license)
+
+---
+
+## Install
+
+### Claude Code Plugin
+
+Install from GitHub:
+
+```bash
+/plugin marketplace add apipoj/thai-business-ai-skills
+/plugin install apipoj@thai-business-ai-skills
+```
+
+After install, skills are available with namespaced commands like:
+- `/thai-business-ai-skills:thai-sales-follow-up`
+- `/thai-business-ai-skills:thai-marketing-post-writer`
+- `/thai-business-ai-skills:thai-customer-complaint-reply`
+
+### Install as Skills
+
+Install all skills:
+
+```bash
+npx skills add apipoj/thai-business-ai-skills
+```
+
+Install a specific skill:
+
+```bash
+npx skills add apipoj/thai-business-ai-skills@thai-sales-follow-up
+npx skills add apipoj/thai-business-ai-skills@thai-marketing-post-writer
+npx skills add apipoj/thai-business-ai-skills@thai-meeting-summary-action-items
+```
+
+### Manual
+
+ถ้าต้องการติดตั้งเองแบบ manual ให้คัดลอกเฉพาะ folder ของ skill ที่ต้องการไปไว้ใน `~/.claude/skills/`
+
+```bash
+cp -r departments/sales/skill-follow-up-message-th ~/.claude/skills/
+cp -r general/meetings/skill-meeting-summary-action-items-th ~/.claude/skills/
+```
+
+---
+
+## Skill Map
+
+ภาพรวมแบบง่ายของ repo นี้:
+
+```text
+┌──────────────────────────────────────────────┐
+│ thai-business-ai-skills                      │
+│ Thai-first practical skills for business     │
+└───────────────────┬──────────────────────────┘
+                    │
+   ┌────────────────┼────────────────┬────────────────┬────────────────┐
+   ▼                ▼                ▼                ▼                ▼
+┌──────────┐  ┌────────────┐  ┌──────────────┐  ┌──────────┐  ┌────────────┐
+│ Sales    │  │ Marketing  │  │ Support      │  │ HR       │  │ Operations │
+├──────────┤  ├────────────┤  ├──────────────┤  ├──────────┤  ├────────────┤
+│follow-up │  │post-writer │  │complaint     │  │jd-writer │  │announce    │
+│lead-qual │  │30d-content │  │ticket-sum    │  │interview │  │sop-draft   │
+│discovery │  │captions    │  │faq-builder   │  │questions │  │            │
+│objection │  │            │  │              │  │          │  │            │
+└────┬─────┘  └─────┬──────┘  └──────┬───────┘  └────┬─────┘  └─────┬──────┘
+     │              │                │               │                │
+     └──────────────┴────────────────┼───────────────┴────────────────┘
+                                     │
+                                     ▼
+                         ┌───────────────────────┐
+                         │ Shared business layer │
+                         ├───────────────────────┤
+                         │ meetings-summary      │
+                         │ email-reply           │
+                         │ presentation-outline  │
+                         │ finance-summary       │
+                         │ payment-reminder      │
+                         │ exec-summary          │
+                         │ decision-memo         │
+                         │ weekly-update         │
+                         └───────────────────────┘
+```
+
+ตัวอย่างการ cross-reference กันของ skill:
+- sales follow-up ↔ lead qualification ↔ discovery call summary
+- marketing post writer ↔ caption variants ↔ 30-day content calendar
+- complaint reply ↔ ticket summary ↔ FAQ builder
+- executive summary ↔ weekly management update ↔ decision memo
+- meeting summary ↔ professional email reply ↔ presentation outline
 
 ---
 
