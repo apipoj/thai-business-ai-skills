@@ -203,44 +203,44 @@ repo นี้พยายามใช้โครงสร้างแบบ st
 
 ### Sales
 - [หน้ารวม Sales Skills](departments/sales/README.md)
-- [เขียนข้อความติดตามลูกค้า](departments/sales/skill-follow-up-message-th/SKILL.md)
-- [คัดกรอง lead เบื้องต้น](departments/sales/skill-lead-qualification-th/SKILL.md)
-- [สรุป discovery call สำหรับทีมขาย](departments/sales/skill-discovery-call-summary-th/SKILL.md)
-- [ตอบ objection ลูกค้าแบบสุภาพ](departments/sales/skill-objection-handling-th/SKILL.md)
+- [เขียนข้อความติดตามลูกค้า](departments/sales/skill-follow-up-message-th/SKILL.md) - ช่วยร่างข้อความติดตามลูกค้าแบบสุภาพ กระชับ และไม่กดดัน
+- [คัดกรอง lead เบื้องต้น](departments/sales/skill-lead-qualification-th/SKILL.md) - ช่วยสรุปว่า lead น่าสนใจแค่ไหนและควรถามอะไรต่อ
+- [สรุป discovery call สำหรับทีมขาย](departments/sales/skill-discovery-call-summary-th/SKILL.md) - ช่วยย่อยโน้ตคุยลูกค้าให้เป็น pain point, need และ next step
+- [ตอบ objection ลูกค้าแบบสุภาพ](departments/sales/skill-objection-handling-th/SKILL.md) - ช่วยตอบข้อกังวลเรื่องราคา เวลา หรือการตัดสินใจอย่างมืออาชีพ
 
 ### Marketing
 - [หน้ารวม Marketing Skills](departments/marketing/README.md)
-- [เขียนโพสต์โปรโมตสินค้า/บริการ](departments/marketing/skill-thai-marketing-post/SKILL.md)
-- [คิดไอเดียคอนเทนต์ 30 วัน](departments/marketing/skill-content-calendar-30-days-th/SKILL.md)
-- [เขียนแคปชันหลายเวอร์ชันตามโทน](departments/marketing/skill-caption-variants-th/SKILL.md)
+- [เขียนโพสต์โปรโมตสินค้า/บริการ](departments/marketing/skill-thai-marketing-post/SKILL.md) - ช่วยเขียนโพสต์การตลาดภาษาไทยให้อ่านง่ายและพร้อมใช้
+- [คิดไอเดียคอนเทนต์ 30 วัน](departments/marketing/skill-content-calendar-30-days-th/SKILL.md) - ช่วยวางแผนคอนเทนต์รายเดือนแบบทำได้จริงสำหรับทีมเล็ก
+- [เขียนแคปชันหลายเวอร์ชันตามโทน](departments/marketing/skill-caption-variants-th/SKILL.md) - ช่วยแตกข้อความเดียวให้เป็นหลายสไตล์ตามช่องทางหรือกลุ่มเป้าหมาย
 
 ### Customer Support
 - [หน้ารวม Customer Support Skills](departments/customer-support/README.md)
-- [ตอบลูกค้าร้องเรียนอย่างสุภาพ](departments/customer-support/skill-thai-complaint-reply/SKILL.md)
-- [สรุปปัญหาจากแชทลูกค้าเป็น ticket summary](departments/customer-support/skill-ticket-summary-from-chat-th/SKILL.md)
-- [เขียน FAQ จากคำถามที่ถามบ่อย](departments/customer-support/skill-faq-from-repeated-questions-th/SKILL.md)
+- [ตอบลูกค้าร้องเรียนอย่างสุภาพ](departments/customer-support/skill-thai-complaint-reply/SKILL.md) - ช่วยร่างคำตอบที่ใจเย็น สุภาพ และช่วยลดความตึงเครียด
+- [สรุปปัญหาจากแชทลูกค้าเป็น ticket summary](departments/customer-support/skill-ticket-summary-from-chat-th/SKILL.md) - ช่วยเปลี่ยนแชทที่กระจัดกระจายให้เป็นสรุปปัญหาที่ส่งต่อทีมได้
+- [เขียน FAQ จากคำถามที่ถามบ่อย](departments/customer-support/skill-faq-from-repeated-questions-th/SKILL.md) - ช่วยรวมคำถามซ้ำ ๆ ให้เป็น FAQ ที่ลูกค้าอ่านแล้วเข้าใจง่าย
 
 ### HR
 - [หน้ารวม HR Skills](departments/hr/README.md)
-- [เขียน JD แบบเข้าใจง่าย](departments/hr/skill-thai-jd-writer/SKILL.md)
-- [สร้างคำถามสัมภาษณ์ตามตำแหน่งงาน](departments/hr/skill-interview-questions-by-role-th/SKILL.md)
+- [เขียน JD แบบเข้าใจง่าย](departments/hr/skill-thai-jd-writer/SKILL.md) - ช่วยร่างประกาศรับสมัครงานให้ชัด อ่านง่าย และไม่ฟุ้ง
+- [สร้างคำถามสัมภาษณ์ตามตำแหน่งงาน](departments/hr/skill-interview-questions-by-role-th/SKILL.md) - ช่วยเตรียมชุดคำถามสัมภาษณ์ที่ใช้งานได้จริงตามบทบาทงาน
 
 ### Operations
 - [หน้ารวม Operations Skills](departments/operations/README.md)
-- [เขียนประกาศหรือข้อความภายในทีม](departments/operations/skill-internal-announcement-th/SKILL.md)
-- [เขียน SOP เบื้องต้นจากขั้นตอนงาน](departments/operations/skill-sop-draft-th/SKILL.md)
+- [เขียนประกาศหรือข้อความภายในทีม](departments/operations/skill-internal-announcement-th/SKILL.md) - ช่วยร่างข้อความภายในให้ชัด สุภาพ และสื่อสารตรงประเด็น
+- [เขียน SOP เบื้องต้นจากขั้นตอนงาน](departments/operations/skill-sop-draft-th/SKILL.md) - ช่วยแปลงขั้นตอนงานที่กระจัดกระจายให้เป็น SOP ที่ทีมใช้ตามได้
 
 ### Finance
 - [หน้ารวม Finance Skills](departments/finance/README.md)
-- [สรุปค่าใช้จ่ายแบบเข้าใจง่าย](departments/finance/skill-expense-summary-th/SKILL.md)
-- [เขียนข้อความติดตามการชำระเงินอย่างสุภาพ](departments/finance/skill-payment-reminder-th/SKILL.md)
-- [สรุปรายงานตัวเลขสำหรับผู้จัดการหรือผู้บริหาร](departments/finance/skill-management-report-summary-th/SKILL.md)
+- [สรุปค่าใช้จ่ายแบบเข้าใจง่าย](departments/finance/skill-expense-summary-th/SKILL.md) - ช่วยย่อยข้อมูลค่าใช้จ่ายให้ผู้จัดการอ่านและเห็นประเด็นเร็วขึ้น
+- [เขียนข้อความติดตามการชำระเงินอย่างสุภาพ](departments/finance/skill-payment-reminder-th/SKILL.md) - ช่วยติดตาม invoice หรือการโอนเงินแบบมืออาชีพไม่แข็งเกินไป
+- [สรุปรายงานตัวเลขสำหรับผู้จัดการหรือผู้บริหาร](departments/finance/skill-management-report-summary-th/SKILL.md) - ช่วยเปลี่ยนตัวเลขดิบให้เป็นสรุปที่พร้อมใช้ในการบริหาร
 
 ### Leadership
 - [หน้ารวม Leadership Skills](departments/leadership/README.md)
-- [สรุปรายงานให้ผู้บริหารอ่านง่าย](departments/leadership/skill-exec-summary/SKILL.md)
-- [เขียน decision memo แบบกระชับ](departments/leadership/skill-decision-memo-th/SKILL.md)
-- [สรุป weekly management update](departments/leadership/skill-weekly-management-update-th/SKILL.md)
+- [สรุปรายงานให้ผู้บริหารอ่านง่าย](departments/leadership/skill-exec-summary/SKILL.md) - ช่วยย่อรายงานยาวให้เหลือเฉพาะสถานะ ประเด็นสำคัญ และความเสี่ยง
+- [เขียน decision memo แบบกระชับ](departments/leadership/skill-decision-memo-th/SKILL.md) - ช่วยจัดความคิดและทางเลือกให้พร้อมสำหรับการตัดสินใจ
+- [สรุป weekly management update](departments/leadership/skill-weekly-management-update-th/SKILL.md) - ช่วยรวมอัปเดตรายสัปดาห์ให้ผู้บริหารอ่านง่ายและเห็น blocker
 
 ---
 
@@ -248,11 +248,11 @@ repo นี้พยายามใช้โครงสร้างแบบ st
 
 ### Meetings
 - [หน้ารวม Meeting Skills](general/meetings/README.md)
-- [สรุปประชุมพร้อม Action Items](general/meetings/skill-meeting-summary-action-items-th/SKILL.md)
+- [สรุปประชุมพร้อม Action Items](general/meetings/skill-meeting-summary-action-items-th/SKILL.md) - ช่วยสรุปประชุม แยกสิ่งที่ตัดสินใจแล้วและงานที่ต้องทำต่อ
 
 ### PowerPoint
 - [หน้ารวม PowerPoint Skills](general/powerpoint/README.md)
-- [ช่วยทำโครงสไลด์นำเสนอ](general/powerpoint/skill-presentation-outline/SKILL.md)
+- [ช่วยทำโครงสไลด์นำเสนอ](general/powerpoint/skill-presentation-outline/SKILL.md) - ช่วยเรียง flow การนำเสนอให้ชัดก่อนลงมือทำสไลด์จริง
 - [Anthropic pptx skill](https://github.com/anthropics/skills/tree/main/skills/pptx)
 
 ### Excel
@@ -265,7 +265,7 @@ repo นี้พยายามใช้โครงสร้างแบบ st
 
 ### Email
 - [หน้ารวม Email Skills](general/email/README.md)
-- [ตอบอีเมลธุรกิจอย่างมืออาชีพ](general/email/skill-professional-email-reply-th/SKILL.md)
+- [ตอบอีเมลธุรกิจอย่างมืออาชีพ](general/email/skill-professional-email-reply-th/SKILL.md) - ช่วยร่างอีเมลตอบกลับแบบสุภาพ ชัดเจน และพร้อมส่ง
 
 ### Research
 - [หน้ารวม Research Skills](general/research/README.md)
