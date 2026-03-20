@@ -52,7 +52,7 @@
   - [Translation / Localization](#translation--localization)
 - [External Recommended Skills](#external-recommended-skills)
 - [Standard Skill Format](#standard-skill-format)
-- [Skill Selection Rule](#skill-selection-rule)
+- [About the Skills in This Repo](#about-the-skills-in-this-repo)
 - [Who This Repo Is For](#who-this-repo-is-for)
 - [Important Cautions](#important-cautions)
 - [Contribution Guide](#contribution-guide)
@@ -214,13 +214,12 @@ skill-name/
 
 ---
 
-## Skill Selection Rule
+## About the Skills in This Repo
 
-กฎง่าย ๆ สำหรับการคัด skill เข้ามาใน repo:
-
-- ถ้ามี skill ต้นฉบับที่ดีอยู่แล้ว → **ลิงก์**
-- ถ้ายังไม่เหมาะกับคนไทย / ธุรกิจไทย → **ทำ wrapper**
-- ถ้าเป็น workflow ธุรกิจไทยโดยตรง → **เขียน original skill**
+repo นี้มีทั้ง:
+- original skills ที่เขียนขึ้นเพื่อบริบทธุรกิจไทย
+- curated external skills ที่ลิงก์ไปยังต้นฉบับ
+- wrapper หรือ use case ที่ช่วยให้เอา skill ทั่วไปไปใช้กับงานธุรกิจไทยได้ง่ายขึ้น
 
 ---
 
