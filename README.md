@@ -1,5 +1,7 @@
 # Thai Business AI Skills
 
+![Thai Business AI Skills Banner](assets/repo-banner.png)
+
 คลังรวม **AI Skills สำหรับธุรกิจไทย** ที่เน้น **ภาษาไทย, ใช้ง่าย, ไม่ technical, คัดลอกแล้วใช้ได้เลย**
 
 ใช้ได้กับ:
