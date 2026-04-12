@@ -158,7 +158,7 @@ cp -r general/meetings/skill-meeting-summary-action-items-th ~/.claude/skills/
 - การตลาด: [เขียนโพสต์โปรโมตสินค้า/บริการ](departments/marketing/skill-thai-marketing-post/SKILL.md) / [คิดไอเดียคอนเทนต์ 30 วัน](departments/marketing/skill-content-calendar-30-days-th/SKILL.md)
 - บริการลูกค้า: [ตอบลูกค้าร้องเรียนอย่างสุภาพ](departments/customer-support/skill-thai-complaint-reply/SKILL.md) / [สรุปปัญหาจากแชทลูกค้าเป็น ticket summary](departments/customer-support/skill-ticket-summary-from-chat-th/SKILL.md)
 - HR: [เขียน JD แบบเข้าใจง่าย](departments/hr/skill-thai-jd-writer/SKILL.md) / [สร้างคำถามสัมภาษณ์ตามตำแหน่งงาน](departments/hr/skill-interview-questions-by-role-th/SKILL.md)
-- Meetings: [สรุปประชุมพร้อม Action Items](general/meetings/skill-meeting-summary-action-items-th/SKILL.md)
+- Meetings: [สรุปประชุมพร้อม Action Items](departments/operations/skill-meeting-summary-action-items-th/SKILL.md)
 - ผู้บริหาร: [สรุปรายงานให้ผู้บริหารอ่านง่าย](departments/leadership/skill-exec-summary/SKILL.md)
 - PowerPoint: [ช่วยทำโครงสไลด์นำเสนอ](general/powerpoint/skill-presentation-outline/SKILL.md)
 
@@ -194,7 +194,7 @@ repo นี้พยายามใช้โครงสร้างแบบ st
 - [เขียนโพสต์โปรโมตสินค้า/บริการ](departments/marketing/skill-thai-marketing-post/SKILL.md) — ช่วยทำโพสต์การตลาดภาษาไทยแบบใช้งานได้จริง
 - [ตอบลูกค้าร้องเรียนอย่างสุภาพ](departments/customer-support/skill-thai-complaint-reply/SKILL.md) — ช่วยลดความตึงเครียดและตอบอย่างมืออาชีพ
 - [เขียน JD แบบเข้าใจง่าย](departments/hr/skill-thai-jd-writer/SKILL.md) — ช่วยให้ประกาศรับสมัครชัดเจนขึ้น
-- [สรุปประชุมพร้อม Action Items](general/meetings/skill-meeting-summary-action-items-th/SKILL.md) — ช่วยทำสรุปประชุมพร้อมส่งต่อทีม
+- [สรุปประชุมพร้อม Action Items](departments/operations/skill-meeting-summary-action-items-th/SKILL.md) — ช่วยทำสรุปประชุมพร้อมส่งต่อทีม
 - [สรุปรายงานให้ผู้บริหารอ่านง่าย](departments/leadership/skill-exec-summary/SKILL.md) — ช่วยย่อยรายงานให้สั้นและคม
 - [ช่วยทำโครงสไลด์นำเสนอ](general/powerpoint/skill-presentation-outline/SKILL.md) — ช่วยคิด flow ก่อนลงมือทำ deck
 
@@ -231,6 +231,8 @@ repo นี้พยายามใช้โครงสร้างแบบ st
 - [หน้ารวม Operations Skills](departments/operations/README.md)
 - [เขียนประกาศหรือข้อความภายในทีม](departments/operations/skill-internal-announcement-th/SKILL.md) - ช่วยร่างข้อความภายในให้ชัด สุภาพ และสื่อสารตรงประเด็น
 - [เขียน SOP เบื้องต้นจากขั้นตอนงาน](departments/operations/skill-sop-draft-th/SKILL.md) - ช่วยแปลงขั้นตอนงานที่กระจัดกระจายให้เป็น SOP ที่ทีมใช้ตามได้
+- [สรุป renewal / expiry จากข้อความภาษาไทย](departments/operations/skill-renewal-expiry-triage-th/SKILL.md) - ช่วยดึงรายการต่ออายุ ใกล้หมดอายุ และงาน follow-up จากข้อความภาษาไทยที่กระจัดกระจาย
+- [สรุปประชุมเป็น action items สำหรับผู้บริหารไทย](departments/operations/skill-meeting-summary-action-items-th/SKILL.md) - ช่วยสรุปประชุม แยก decision, owner, due date และ next steps แบบพร้อมส่งต่อ
 
 ### Finance
 - [หน้ารวม Finance Skills](departments/finance/README.md)
@@ -250,7 +252,7 @@ repo นี้พยายามใช้โครงสร้างแบบ st
 
 ### Meetings
 - [หน้ารวม Meeting Skills](general/meetings/README.md)
-- [สรุปประชุมพร้อม Action Items](general/meetings/skill-meeting-summary-action-items-th/SKILL.md) - ช่วยสรุปประชุม แยกสิ่งที่ตัดสินใจแล้วและงานที่ต้องทำต่อ
+- [สรุปประชุมพร้อม Action Items](departments/operations/skill-meeting-summary-action-items-th/SKILL.md) - ช่วยสรุปประชุม แยกสิ่งที่ตัดสินใจแล้วและงานที่ต้องทำต่อ
 
 ### PowerPoint
 - [หน้ารวม PowerPoint Skills](general/powerpoint/README.md)
