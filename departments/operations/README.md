@@ -5,3 +5,4 @@
 ## Skills
 - [เขียนประกาศหรือข้อความภายในทีม](skill-internal-announcement-th/SKILL.md)
 - [เขียน SOP เบื้องต้นจากขั้นตอนงาน](skill-sop-draft-th/SKILL.md)
+- [สรุปใบเสนอราคา / vendor proposal หลายเจ้าเป็น decision brief สำหรับทีมไทย](skill-vendor-comparison-brief-th/SKILL.md) - ช่วยเทียบข้อเสนอหลายเจ้าให้เห็นราคา scope timeline และ tradeoff ชัด
