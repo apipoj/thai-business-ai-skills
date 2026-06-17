@@ -63,13 +63,34 @@
 
 ## Install
 
+### ใช้ใน Claude Cowork เป็น Slash Commands
+
+ถ้าต้องการให้ skill ขึ้นในเมนู `/` ของ Claude Cowork:
+
+1. เปิด Claude Cowork
+2. ไปที่ **Customize → Plugins**
+3. เลือก **Add marketplace**
+4. ใส่ repo นี้:
+
+```text
+apipoj/thai-business-ai-skills
+```
+
+5. Install plugin ชื่อ `thai-business-ai-skills`
+6. เรียกใช้ skill จาก slash menu ได้ เช่น:
+
+- `/thai-business-ai-skills:thai-sales-follow-up`
+- `/thai-business-ai-skills:thai-marketing-post-writer`
+- `/thai-business-ai-skills:thai-customer-complaint-reply`
+- `/thai-business-ai-skills:thai-meeting-summary-action-items`
+
 ### Claude Code Plugin
 
 Install from GitHub:
 
 ```bash
 /plugin marketplace add apipoj/thai-business-ai-skills
-/plugin install apipoj@thai-business-ai-skills
+/plugin install thai-business-ai-skills@thai-business-ai-skills
 ```
 
 After install, skills are available with namespaced commands like:

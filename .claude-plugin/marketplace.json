@@ -1,0 +1,26 @@
+{
+  "name": "thai-business-ai-skills",
+  "description": "Thai-first practical AI skills for business teams, distributed as Claude Cowork and Claude Code slash-command skills.",
+  "owner": {
+    "name": "Apipoj / ALL-IN-AI"
+  },
+  "plugins": [
+    {
+      "name": "thai-business-ai-skills",
+      "source": "./",
+      "description": "Practical Thai business AI skills that appear as slash commands in Claude Cowork and Claude Code.",
+      "category": "productivity",
+      "tags": [
+        "thai",
+        "business",
+        "skills",
+        "cowork",
+        "sales",
+        "marketing",
+        "support",
+        "hr",
+        "operations"
+      ]
+    }
+  ]
+}
