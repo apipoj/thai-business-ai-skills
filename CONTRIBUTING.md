@@ -113,6 +113,7 @@ description: Explain what the skill does and when it should be used.
 - [ ] ไม่มีข้อมูลมั่วหรือเดาเกินจริง
 - [ ] ถ้ามี external skill ที่ดีกว่า ได้พิจารณา link แล้ว
 - [ ] README หรือหมวดที่เกี่ยวข้องถูกอัปเดตแล้ว
+- [ ] ถ้า skill ต้องขึ้นในเมนู `/` ให้เพิ่ม `commands/<short-name>.md` — slash จะเป็น `/de:<short-name>` ไม่ใช้ชื่อยาว `thai-business-ai-skills:...`
 
 ## หมายเหตุ
 

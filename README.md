@@ -76,13 +76,15 @@
 apipoj/thai-business-ai-skills
 ```
 
-5. Install plugin ชื่อ `thai-business-ai-skills`
-6. เรียกใช้ skill จาก slash menu ได้ เช่น:
+5. Install plugin ชื่อ `de`
+6. เรียกใช้จาก slash menu ชื่อสั้น เช่น:
 
-- `/thai-business-ai-skills:thai-sales-follow-up`
-- `/thai-business-ai-skills:thai-marketing-post-writer`
-- `/thai-business-ai-skills:thai-customer-complaint-reply`
-- `/thai-business-ai-skills:thai-meeting-summary-action-items`
+- `/de:follow-up`
+- `/de:post`
+- `/de:complaint`
+- `/de:meeting`
+
+ไม่ใช้ชื่อยาวแบบ `/thai-business-ai-skills:thai-sales-follow-up`
 
 ### Claude Code Plugin
 
@@ -90,13 +92,14 @@ Install from GitHub:
 
 ```bash
 /plugin marketplace add apipoj/thai-business-ai-skills
-/plugin install thai-business-ai-skills@thai-business-ai-skills
+/plugin install de@thai-business-ai-skills
 ```
 
-After install, skills are available with namespaced commands like:
-- `/thai-business-ai-skills:thai-sales-follow-up`
-- `/thai-business-ai-skills:thai-marketing-post-writer`
-- `/thai-business-ai-skills:thai-customer-complaint-reply`
+After install, commands are short:
+- `/de:follow-up`
+- `/de:post`
+- `/de:complaint`
+- `/de:meeting`
 
 ### Install as Skills
 

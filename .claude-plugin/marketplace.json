@@ -6,9 +6,9 @@
   },
   "plugins": [
     {
-      "name": "thai-business-ai-skills",
+      "name": "de",
       "source": "./",
-      "description": "Practical Thai business AI skills that appear as slash commands in Claude Cowork and Claude Code.",
+      "description": "Short /de: slash commands for Thai business work.",
       "category": "productivity",
       "tags": [
         "thai",

@@ -1,7 +1,9 @@
 {
-  "name": "thai-business-ai-skills",
-  "description": "Practical AI skills for Thai business teams. Thai-first, simple, non-technical, and ready to use in real business work.",
-  "version": "0.1.1",
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "de",
+  "displayName": "Data-Espresso Thai Business Skills",
+  "description": "Practical AI skills for Thai business teams. Slash commands are short: /de:follow-up /de:post /de:meeting.",
+  "version": "0.2.0",
   "author": {
     "name": "Apipoj / ALL-IN-AI"
   },
@@ -14,40 +16,10 @@
     "ai",
     "skills",
     "claude-code",
-    "sales",
-    "marketing",
-    "support",
-    "hr",
-    "operations",
-    "finance",
-    "leadership"
+    "cowork",
+    "data-espresso"
   ],
-  "skills": [
-    "./departments/sales/skill-discovery-call-summary-th",
-    "./departments/sales/skill-follow-up-message-th",
-    "./departments/sales/skill-lead-qualification-th",
-    "./departments/sales/skill-objection-handling-th",
-    "./departments/sales/skill-request-more-customer-info-th",
-    "./departments/marketing/skill-caption-variants-th",
-    "./departments/marketing/skill-content-calendar-30-days-th",
-    "./departments/marketing/skill-thai-marketing-post",
-    "./departments/customer-support/skill-faq-from-repeated-questions-th",
-    "./departments/customer-support/skill-thai-complaint-reply",
-    "./departments/customer-support/skill-ticket-summary-from-chat-th",
-    "./departments/hr/skill-interview-questions-by-role-th",
-    "./departments/hr/skill-thai-jd-writer",
-    "./departments/operations/skill-internal-announcement-th",
-    "./departments/operations/skill-renewal-expiry-triage-th",
-    "./departments/operations/skill-sop-draft-th",
-    "./departments/operations/skill-vendor-comparison-brief-th",
-    "./departments/finance/skill-expense-summary-th",
-    "./departments/finance/skill-management-report-summary-th",
-    "./departments/finance/skill-payment-reminder-th",
-    "./departments/leadership/skill-decision-memo-th",
-    "./departments/leadership/skill-exec-summary",
-    "./departments/leadership/skill-weekly-management-update-th",
-    "./general/meetings/skill-meeting-summary-action-items-th",
-    "./general/powerpoint/skill-presentation-outline",
-    "./general/email/skill-professional-email-reply-th"
+  "commands": [
+    "./commands"
   ]
 }
